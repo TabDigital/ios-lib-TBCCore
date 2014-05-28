@@ -18,8 +18,4 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    XCTAssertNotNil([[TBCCore alloc] init], @"");
-}
-
 @end

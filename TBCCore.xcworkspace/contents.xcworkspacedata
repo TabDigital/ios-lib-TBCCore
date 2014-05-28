@@ -8,7 +8,10 @@
          location = "group:TBCCore.h">
       </FileRef>
       <FileRef
-         location = "group:TBCCore.m">
+         location = "group:TBCTypeSafety.h">
+      </FileRef>
+      <FileRef
+         location = "group:TBCTypeSafety.m">
       </FileRef>
       <Group
          location = "group:Configuration"

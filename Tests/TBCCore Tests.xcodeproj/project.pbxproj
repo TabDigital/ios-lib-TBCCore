@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		568084740A9B49ACA6862A15 /* libPods-iOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A632E5F3E1415D9EF8D77A /* libPods-iOS Tests.a */; };
 		A37D10C819346AFF0050869A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BB0403193358B9005EDD38 /* XCTest.framework */; };
-		A37D10D519346C2E0050869A /* TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB0411193358B9005EDD38 /* TBCCoreTests.m */; };
 		A3BB0404193358B9005EDD38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BB0403193358B9005EDD38 /* XCTest.framework */; };
 		A3BB0405193358B9005EDD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BB03F5193358B9005EDD38 /* Foundation.framework */; };
 		A3BB0407193358B9005EDD38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BB0406193358B9005EDD38 /* UIKit.framework */; };
-		A3BB0412193358B9005EDD38 /* TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB0411193358B9005EDD38 /* TBCCoreTests.m */; };
+		A3D6689A1935779700521540 /* TBCTypeSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D668991935779700521540 /* TBCTypeSafetyTests.m */; };
+		A3D6689B1935779700521540 /* TBCTypeSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D668991935779700521540 /* TBCTypeSafetyTests.m */; };
 		C1FED3FA68C04B3A8471FF98 /* libPods-OS X Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B131E7A1B944F8B5CAAB63 /* libPods-OS X Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 		A3BB0403193358B9005EDD38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A3BB0406193358B9005EDD38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A3BB040D193358B9005EDD38 /* TBCCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreTests-Info.plist"; sourceTree = "<group>"; };
-		A3BB0411193358B9005EDD38 /* TBCCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCCoreTests.m; sourceTree = "<group>"; };
+		A3D668991935779700521540 /* TBCTypeSafetyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCTypeSafetyTests.m; sourceTree = "<group>"; };
 		A8E10ADCA98A4FEEA2F051FB /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A632E5F3E1415D9EF8D77A /* libPods-iOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2A14BAD01B4A7886C7C4FD /* Pods-OS X Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OS X Tests.xcconfig"; path = "../Pods/Pods-OS X Tests.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		A3BB040B193358B9005EDD38 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A3BB0411193358B9005EDD38 /* TBCCoreTests.m */,
+				A3D668991935779700521540 /* TBCTypeSafetyTests.m */,
 				A3BB040D193358B9005EDD38 /* TBCCoreTests-Info.plist */,
 			);
 			path = Tests;
@@ -253,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A37D10D519346C2E0050869A /* TBCCoreTests.m in Sources */,
+				A3D6689B1935779700521540 /* TBCTypeSafetyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BB0412193358B9005EDD38 /* TBCCoreTests.m in Sources */,
+				A3D6689A1935779700521540 /* TBCTypeSafetyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
