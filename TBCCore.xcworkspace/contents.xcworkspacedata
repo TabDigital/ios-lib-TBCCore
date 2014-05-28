@@ -10,6 +10,13 @@
       <FileRef
          location = "group:TBCCore.m">
       </FileRef>
+      <Group
+         location = "group:Configuration"
+         name = "Configuration">
+         <FileRef
+            location = "group:Warnings.xh">
+         </FileRef>
+      </Group>
    </Group>
    <FileRef
       location = "group:Tests/TBCCore Tests.xcodeproj">

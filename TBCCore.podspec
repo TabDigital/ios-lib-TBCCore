@@ -10,11 +10,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "5.1"
   s.osx.deployment_target = "10.9"
   s.source_files = "TBCCore/**/*.{h,m,c}"
-  s.public_header_files = "TBCCore/**/*.h"
+  s.public_header_files =  "TBCCore/**/*.h", "TBCCore/Configuration/Warnings.xh"
   s.private_header_files = "TBCCore/Internal/**/*.h"
+  s.preserve_paths = "TBCCore/Configuration/Warnings.xh"
   s.header_mappings_dir = 'TBCCore'
   s.requires_arc = true
   
   # I admit this is cheeky, but it works
-  s.xcconfig = { "TBCCORE_WARNINGS_INCLUDED" => "1\n#include \"Headers/TBCCore/Configuration/Warnings.xcconfig\"" }
+  s.xcconfig = { "TBCCORE_WARNINGS_INCLUDED" => "1\n#include \"Headers/TBCCore/Configuration/Warnings.xh\"" }
 end
