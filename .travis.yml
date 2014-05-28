@@ -1,0 +1,20 @@
+language: objective-c
+
+before_install:
+  # stops cocoapods spams about requiring UTF-8
+  - export LANG=en_US.UTF-8
+  # Travis currently uses xctool v0.1.14; we require v0.1.15
+  - brew unlink xctool
+  - brew update
+  - brew install xctool
+  - xctool -version
+  # we require an updated cocoapods too
+  - gem update cocoapods
+
+env:
+  - XCODE_SCHEME="iOS Tests" XCODE_SDK=iphonesimulator
+  - XCODE_SCHEME=TBCCoreExample XCODE_SDK=iphonesimulator
+  - XCODE_SCHEME="OS X Tests" XCODE_SDK=macosx10.9
+
+script:
+    - xctool test -workspace TBCCore.xcworkspace -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK"

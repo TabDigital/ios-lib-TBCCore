@@ -1,0 +1,7 @@
+.DS_Store
+xcuserdata
+build/
+*.xccheckout
+
+Pods
+Podfile.lock

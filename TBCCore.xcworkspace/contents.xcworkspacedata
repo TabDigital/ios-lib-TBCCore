@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:TBCCore"
+      name = "TBCCore">
+      <FileRef
+         location = "group:TBCCore.h">
+      </FileRef>
+      <FileRef
+         location = "group:TBCCore.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Tests/TBCCore Tests.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/TBCCore Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
