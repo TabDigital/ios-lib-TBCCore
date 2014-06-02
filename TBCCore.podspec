@@ -9,8 +9,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "5.1"
   s.osx.deployment_target = "10.9"
-  s.source_files = "TBCCore/**/*.{h,m,c}"
-  s.public_header_files =  "TBCCore/**/*.h", "TBCCore/Configuration/Warnings.xh"
+  s.ios.source_files = "TBCCore/*.{h,m,c}", "TBCCore/ios/*.{h,m,c}"
+  s.osx.source_files = "TBCCore/*.{h,m,c}", "TBCCore/osx/*.{h,m,c}"
+
+  s.public_header_files =  "TBCCore/*.h", "TBCCore/Configuration/Warnings.xh"
   s.private_header_files = "TBCCore/Internal/**/*.h"
   s.preserve_paths = "TBCCore/Configuration/Warnings.xh"
   s.header_mappings_dir = 'TBCCore'

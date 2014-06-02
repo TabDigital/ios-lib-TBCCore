@@ -13,6 +13,15 @@
       <FileRef
          location = "group:TBCTypeSafety.m">
       </FileRef>
+      <FileRef
+         location = "group:TBCAlertView.h">
+      </FileRef>
+      <FileRef
+         location = "group:ios/TBCAlertView-ios.m">
+      </FileRef>
+      <FileRef
+         location = "group:osx/TBCAlertView-osx.m">
+      </FileRef>
       <Group
          location = "group:Configuration"
          name = "Configuration">
