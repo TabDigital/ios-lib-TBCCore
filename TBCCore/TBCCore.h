@@ -8,6 +8,7 @@
 #import <TBCCore/TBCDebugging.h>
 #import <TBCCore/TBCDelayedDispatcher.h>
 #import <TBCCore/TBCDispatch.h>
+#import <TBCCore/TBCIntervalTimer.h>
 #import <TBCCore/TBCObjC.h>
 #import <TBCCore/TBCPersistenceURLProvider.h>
 #import <TBCCore/TBCTimeInterval.h>
