@@ -1,7 +1,6 @@
 //  Copyright (c) 2014 Tabcorp Pty. Ltd. All rights reserved.
 
-#include "../.eggs/TBCCoreExample-iOS/TBCCore-iOS/Configuration/Target-iOS.xcconfig"
-#include "../.eggs/TBCCoreExample-iOS/eggs.xcconfig"
+#include "../Configuration/Target-iOS.xcconfig"
 
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 TARGETED_DEVICE_FAMILY = 1,2
@@ -10,6 +9,6 @@ WRAPPER_EXTENSION = app
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
 ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage
 
-HEADER_SEARCH_PATHS = $(inherited) $(EGG_HEADER_SEARCH_PATHS)
-FRAMEWORK_SEARCH_PATHS = $(inherited) $(EGG_FRAMEWORK_SEARCH_PATHS)
-OTHER_LDFLAGS = $(inherited) -ObjC $(EGG_OTHER_LDFLAGS)
+HEADER_SEARCH_PATHS = $(inherited)
+FRAMEWORK_SEARCH_PATHS = $(inherited)
+OTHER_LDFLAGS = $(inherited) -ObjC

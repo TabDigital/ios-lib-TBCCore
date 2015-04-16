@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C12540A1ADFEC7500C0A0B0 /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; };
+		2C12540B1ADFEC7500C0A0B0 /* TBCCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CB6839D1ADFBF9600CC9BD2 /* TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CCA12B11ADFB8D00087A693 /* TBCCoreTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CCA12B21ADFB8D00087A693 /* NSArray+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,8 +50,6 @@
 		A3017FCF1A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
 		A3017FD01A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
 		A3084F751987E2EB00C30AFA /* TBCCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; };
-		A3084F7E1987E2EB00C30AFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F7D1987E2EB00C30AFA /* XCTest.framework */; };
-		A3084F7F1987E2EB00C30AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
 		A3084F841987E2EB00C30AFA /* libTBCCore-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */; };
 		A30AF174199B195400E2E356 /* TBCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF172199B195400E2E356 /* TBCTimer.h */; };
 		A30AF175199B195400E2E356 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
@@ -92,18 +92,10 @@
 		A3C9ABCB1A688838002323ED /* TBCStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C9ABC91A688838002323ED /* TBCStopwatch.h */; };
 		A3C9ABCC1A688838002323ED /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
 		A3C9ABCD1A688838002323ED /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
-		A3DBD4A01987E68C00EDCAD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F7D1987E2EB00C30AFA /* XCTest.framework */; };
 		A3DBD4A41987E68C00EDCAD2 /* libTBCCore-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD48E1987E68B00EDCAD2 /* libTBCCore-mac.a */; };
-		A3DBD4B51987E9EC00EDCAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3DBD4BB1987EA6F00EDCAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3DBD4BD1987EA6F00EDCAD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD4BC1987EA6F00EDCAD2 /* CoreGraphics.framework */; };
-		A3DBD4BF1987EA6F00EDCAD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */; };
 		A3DBD4C71987EA6F00EDCAD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4C61987EA6F00EDCAD2 /* main.m */; };
 		A3DBD4CB1987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4CA1987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.m */; };
 		A3DBD4CD1987EA6F00EDCAD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DBD4CC1987EA6F00EDCAD2 /* Images.xcassets */; };
-		A3DBD4D31987EA6F00EDCAD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F7D1987E2EB00C30AFA /* XCTest.framework */; };
-		A3DBD4D41987EA6F00EDCAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3DBD4D51987EA6F00EDCAD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */; };
 		A3DBD4DF1987EA6F00EDCAD2 /* TBCCoreExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */; };
 		D409CF861AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */; };
 		D409CF871AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */; };
@@ -130,19 +122,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C12540C1ADFEC7500C0A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CCA12961ADFB84A0087A693;
+			remoteInfo = "TBCCore-iOS.framework";
+		};
 		A3084F821987E2EB00C30AFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3084F6B1987E2EB00C30AFA;
 			remoteInfo = TBCCore;
-		};
-		A377E1381994F0F2007F2F47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 838AFA372D2ADAB9B3E92A39;
-			remoteInfo = "TBCCoreExample-iOS-eggs";
 		};
 		A3DBD4A21987E68C00EDCAD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -161,6 +153,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2C12540E1ADFEC7500C0A0B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2C12540B1ADFEC7500C0A0B0 /* TBCCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F6A1987E2EB00C30AFA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,10 +183,8 @@
 		A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TBCCore.h"; sourceTree = "<group>"; };
 		A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBCCore.m"; sourceTree = "<group>"; };
 		A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTBCCore-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3084F6F1987E2EB00C30AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3084F741987E2EB00C30AFA /* TBCCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCCore.h; sourceTree = "<group>"; };
 		A3084F7C1987E2EB00C30AFA /* TBCCoreTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3084F7D1987E2EB00C30AFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A3084F871987E2EB00C30AFA /* TBCCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreTests-Info.plist"; sourceTree = "<group>"; };
 		A30AF172199B195400E2E356 /* TBCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCTimer.h; sourceTree = "<group>"; };
 		A30AF173199B195400E2E356 /* TBCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCTimer.m; sourceTree = "<group>"; };
@@ -208,8 +209,6 @@
 		A377E0DB199253ED007F2F47 /* TBCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCAlertView.h; sourceTree = "<group>"; };
 		A377E0DD199253F2007F2F47 /* TBCAlertView-ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCAlertView-ios.m"; sourceTree = "<group>"; };
 		A377E0DE199253F2007F2F47 /* TBCAlertView-mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCAlertView-mac.m"; sourceTree = "<group>"; };
-		A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "TBCCoreExample-iOS-eggs.xcodeproj"; path = ".eggs/TBCCoreExample-iOS/TBCCoreExample-iOS-eggs.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		A377E11F199457A2007F2F47 /* TBCCoreExample-iOS.eggfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TBCCoreExample-iOS.eggfile"; sourceTree = SOURCE_ROOT; };
 		A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Project-Debug.xcconfig"; path = "Configuration/Project-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		A377E1461995C20B007F2F47 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Project-Release.xcconfig"; path = "Configuration/Project-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		A377E1471995C20B007F2F47 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Configuration/Project.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -226,8 +225,6 @@
 		A3DBD48E1987E68B00EDCAD2 /* libTBCCore-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTBCCore-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD49F1987E68C00EDCAD2 /* TBCCoreTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreTests-mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TBCCoreExample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3DBD4BC1987EA6F00EDCAD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3DBD4C21987EA6F00EDCAD2 /* TBCCoreExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreExample-Info.plist"; sourceTree = "<group>"; };
 		A3DBD4C61987EA6F00EDCAD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3DBD4C91987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCCoreExampleAppDelegate.h; sourceTree = "<group>"; };
@@ -276,7 +273,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4B51987E9EC00EDCAD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +281,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3084F841987E2EB00C30AFA /* libTBCCore-iOS.a in Frameworks */,
-				A3084F7E1987E2EB00C30AFA /* XCTest.framework in Frameworks */,
-				A3084F7F1987E2EB00C30AFA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +295,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4A01987E68C00EDCAD2 /* XCTest.framework in Frameworks */,
 				A3DBD4A41987E68C00EDCAD2 /* libTBCCore-mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,9 +303,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4BD1987EA6F00EDCAD2 /* CoreGraphics.framework in Frameworks */,
-				A3DBD4BF1987EA6F00EDCAD2 /* UIKit.framework in Frameworks */,
-				A3DBD4BB1987EA6F00EDCAD2 /* Foundation.framework in Frameworks */,
+				2C12540A1ADFEC7500C0A0B0 /* TBCCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +311,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4D31987EA6F00EDCAD2 /* XCTest.framework in Frameworks */,
-				A3DBD4D51987EA6F00EDCAD2 /* UIKit.framework in Frameworks */,
-				A3DBD4D41987EA6F00EDCAD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,12 +320,12 @@
 		A3084F631987E2EB00C30AFA = {
 			isa = PBXGroup;
 			children = (
+				2C1254101ADFECCB00C0A0B0 /* UIKit.framework */,
 				A3084F711987E2EB00C30AFA /* TBCCore */,
 				A3084F851987E2EB00C30AFA /* TBCCoreTests */,
 				A3DBD4C01987EA6F00EDCAD2 /* TBCCoreExample */,
 				A3DBD4D81987EA6F00EDCAD2 /* TBCCoreExampleTests */,
 				A37B8FE71991F392008878BE /* Configuration */,
-				A3084F6E1987E2EB00C30AFA /* Frameworks */,
 				A3084F6D1987E2EB00C30AFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -355,17 +343,6 @@
 				2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A3084F6E1987E2EB00C30AFA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A3084F6F1987E2EB00C30AFA /* Foundation.framework */,
-				A3084F7D1987E2EB00C30AFA /* XCTest.framework */,
-				A3DBD4BC1987EA6F00EDCAD2 /* CoreGraphics.framework */,
-				A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A3084F711987E2EB00C30AFA /* TBCCore */ = {
@@ -433,24 +410,6 @@
 			path = TBCCoreTests;
 			sourceTree = "<group>";
 		};
-		A377E0E7199312F8007F2F47 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				A377E11F199457A2007F2F47 /* TBCCoreExample-iOS.eggfile */,
-				A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */,
-			);
-			name = lib;
-			path = TBCCoreExampleTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		A377E1351994F0ED007F2F47 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A377E1391994F0F2007F2F47 /* libTBCCoreExample-iOS-eggs.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A37B8FE71991F392008878BE /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,7 +435,6 @@
 				A3DBD4CC1987EA6F00EDCAD2 /* Images.xcassets */,
 				A3DBD4C21987EA6F00EDCAD2 /* TBCCoreExample-Info.plist */,
 				A3DBD4C61987EA6F00EDCAD2 /* main.m */,
-				A377E0E7199312F8007F2F47 /* lib */,
 			);
 			path = TBCCoreExample;
 			sourceTree = "<group>";
@@ -666,10 +624,12 @@
 				A3DBD4B61987EA6F00EDCAD2 /* Sources */,
 				A3DBD4B71987EA6F00EDCAD2 /* Frameworks */,
 				A3DBD4B81987EA6F00EDCAD2 /* Resources */,
+				2C12540E1ADFEC7500C0A0B0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C12540D1ADFEC7500C0A0B0 /* PBXTargetDependency */,
 			);
 			name = "TBCCoreExample-iOS";
 			productName = "TBCCore Example";
@@ -731,12 +691,6 @@
 			mainGroup = A3084F631987E2EB00C30AFA;
 			productRefGroup = A3084F6D1987E2EB00C30AFA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A377E1351994F0ED007F2F47 /* Products */;
-					ProjectRef = A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */,
@@ -750,16 +704,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A377E1391994F0F2007F2F47 /* libTBCCoreExample-iOS-eggs.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libTBCCoreExample-iOS-eggs.a";
-			remoteRef = A377E1381994F0F2007F2F47 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2C12543D1ADFF09400C0A0B0 /* Resources */ = {
@@ -937,6 +881,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C12540D1ADFEC7500C0A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */;
+			targetProxy = 2C12540C1ADFEC7500C0A0B0 /* PBXContainerItemProxy */;
+		};
 		A3084F831987E2EB00C30AFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */;
@@ -1003,6 +952,7 @@
 		};
 		2CCA12AA1ADFB84B0087A693 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1024,6 +974,7 @@
 		};
 		2CCA12AB1ADFB84B0087A693 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1176,6 +1127,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
 			name = Debug;
 		};
@@ -1183,6 +1136,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
 			name = Release;
 		};

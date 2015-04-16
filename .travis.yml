@@ -10,9 +10,6 @@ env:
 
 before_install:
   - brew update && brew upgrade xctool
-  - gem sources -a http://208.52.189.214/gems/
-  - gem install egg
-  - egg "${XCODE_SCHEME}.eggfile"
 
 script:
   - xctool test -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK"
