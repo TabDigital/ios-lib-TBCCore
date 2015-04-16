@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CB6839D1ADFBF9600CC9BD2 /* TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B11ADFB8D00087A693 /* TBCCoreTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B21ADFB8D00087A693 /* NSArray+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B31ADFB8D00087A693 /* NSArray+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001801A2D38FA0091B978 /* NSArray+TBCCore.m */; };
+		2CCA12B41ADFB8D00087A693 /* NSMutableDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B51ADFB8D00087A693 /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
+		2CCA12B61ADFB8D00087A693 /* NSMapTable+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926831ADE174600C1BEE0 /* NSMapTable+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B71ADFB8D00087A693 /* NSMapTable+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA926841ADE174600C1BEE0 /* NSMapTable+TBCCore.m */; };
+		2CCA12B81ADFB8D00087A693 /* NSString+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFFE7A81ACCDB3F00F8B782 /* NSString+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B91ADFB8D00087A693 /* NSString+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFE7A91ACCDB3F00F8B782 /* NSString+TBCCore.m */; };
+		2CCA12BA1ADFB8D00087A693 /* TBCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A893219B548D100D070E2 /* TBCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12BB1ADFB8D00087A693 /* TBCActionSheet-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A893319B548D100D070E2 /* TBCActionSheet-ios.m */; };
+		2CCA12BC1ADFB8D00087A693 /* TBCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0DB199253ED007F2F47 /* TBCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12BD1ADFB8D00087A693 /* TBCAlertView-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0DD199253F2007F2F47 /* TBCAlertView-ios.m */; };
+		2CCA12BF1ADFB8D00087A693 /* TBCCoreDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17719EB4D33009A2236 /* TBCCoreDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C01ADFB8D00087A693 /* TBCCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A31013F319E60F7D00092156 /* TBCCurrencyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C11ADFB8D00087A693 /* TBCCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A31013F419E60F7D00092156 /* TBCCurrencyFormatter.m */; };
+		2CCA12C21ADFB8D00087A693 /* TBCDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17819EB4E3C009A2236 /* TBCDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C31ADFB8D00087A693 /* TBCDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBDE17919EB4E3C009A2236 /* TBCDebugging.m */; };
+		2CCA12C41ADFB8D00087A693 /* TBCDelayedDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936C91999D4460079A886 /* TBCDelayedDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C51ADFB8D00087A693 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
+		2CCA12C61ADFB8D00087A693 /* TBCDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF177199B53F000E2E356 /* TBCDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C71ADFB8D00087A693 /* TBCDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF178199B53F000E2E356 /* TBCDispatch.m */; };
+		2CCA12C81ADFB8D00087A693 /* TBCStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C9ABC91A688838002323ED /* TBCStopwatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C91ADFB8D00087A693 /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
+		2CCA12CA1ADFB8D00087A693 /* TBCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936B91999BAB40079A886 /* TBCObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12CB1ADFB8D00087A693 /* TBCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BA1999BAB40079A886 /* TBCObjC.m */; };
+		2CCA12CC1ADFB8D00087A693 /* TBCPersistenceURLProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD56C8B419C7FD04008E9B11 /* TBCPersistenceURLProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12CD1ADFB8D00087A693 /* TBCPersistenceURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD56C8B519C7FD04008E9B11 /* TBCPersistenceURLProvider.m */; };
+		2CCA12CE1ADFB8D00087A693 /* TBCPredicateBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12CF1ADFB8D00087A693 /* TBCPredicateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */; };
+		2CCA12D01ADFB8D00087A693 /* TBCTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0D61992529D007F2F47 /* TBCTimeInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12D11ADFB8D00087A693 /* TBCTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D71992529D007F2F47 /* TBCTimeInterval.m */; };
+		2CCA12D21ADFB8D00087A693 /* TBCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF172199B195400E2E356 /* TBCTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12D31ADFB8D00087A693 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
+		2CCA12D41ADFB8D00087A693 /* TBCTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0CE19925129007F2F47 /* TBCTypeSafety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12D51ADFB8D00087A693 /* TBCTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0CF19925129007F2F47 /* TBCTypeSafety.m */; };
 		A3017FCE1A84663D0055A22A /* NSMutableDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */; };
 		A3017FCF1A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
 		A3017FD01A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
@@ -137,6 +174,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCA12971ADFB84A0087A693 /* TBCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCA129A1ADFB84B0087A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TBCCore.h"; sourceTree = "<group>"; };
 		A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBCCore.m"; sourceTree = "<group>"; };
 		A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTBCCore-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,6 +258,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C12543B1ADFF09400C0A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12931ADFB84A0087A693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F691987E2EB00C30AFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,6 +351,8 @@
 				A3DBD49F1987E68C00EDCAD2 /* TBCCoreTests-mac.xctest */,
 				A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample-iOS.app */,
 				A3DBD4D21987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS.xctest */,
+				2CCA12971ADFB84A0087A693 /* TBCCore.framework */,
+				2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -315,6 +371,7 @@
 		A3084F711987E2EB00C30AFA /* TBCCore */ = {
 			isa = PBXGroup;
 			children = (
+				2CCA129A1ADFB84B0087A693 /* Info.plist */,
 				A3084F741987E2EB00C30AFA /* TBCCore.h */,
 				FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */,
 				A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */,
@@ -436,6 +493,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2C12543C1ADFF09400C0A0B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12941ADFB84A0087A693 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA12BC1ADFB8D00087A693 /* TBCAlertView.h in Headers */,
+				2CB6839D1ADFBF9600CC9BD2 /* TBCCore.h in Headers */,
+				2CCA12B41ADFB8D00087A693 /* NSMutableDictionary+TBCCore.h in Headers */,
+				2CCA12BF1ADFB8D00087A693 /* TBCCoreDefines.h in Headers */,
+				2CCA12D41ADFB8D00087A693 /* TBCTypeSafety.h in Headers */,
+				2CCA12C41ADFB8D00087A693 /* TBCDelayedDispatcher.h in Headers */,
+				2CCA12C01ADFB8D00087A693 /* TBCCurrencyFormatter.h in Headers */,
+				2CCA12B11ADFB8D00087A693 /* TBCCoreTypes.h in Headers */,
+				2CCA12D21ADFB8D00087A693 /* TBCTimer.h in Headers */,
+				2CCA12CE1ADFB8D00087A693 /* TBCPredicateBlock.h in Headers */,
+				2CCA12CA1ADFB8D00087A693 /* TBCObjC.h in Headers */,
+				2CCA12C61ADFB8D00087A693 /* TBCDispatch.h in Headers */,
+				2CCA12B61ADFB8D00087A693 /* NSMapTable+TBCCore.h in Headers */,
+				2CCA12C21ADFB8D00087A693 /* TBCDebugging.h in Headers */,
+				2CCA12B21ADFB8D00087A693 /* NSArray+TBCCore.h in Headers */,
+				2CCA12B81ADFB8D00087A693 /* NSString+TBCCore.h in Headers */,
+				2CCA12CC1ADFB8D00087A693 /* TBCPersistenceURLProvider.h in Headers */,
+				2CCA12C81ADFB8D00087A693 /* TBCStopwatch.h in Headers */,
+				2CCA12D01ADFB8D00087A693 /* TBCTimeInterval.h in Headers */,
+				2CCA12BA1ADFB8D00087A693 /* TBCActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3DBD48C1987E68B00EDCAD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +553,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1254561ADFF09400C0A0B0 /* Build configuration list for PBXNativeTarget "TBCCore-mac.framework" */;
+			buildPhases = (
+				2C12543A1ADFF09400C0A0B0 /* Sources */,
+				2C12543B1ADFF09400C0A0B0 /* Frameworks */,
+				2C12543C1ADFF09400C0A0B0 /* Headers */,
+				2C12543D1ADFF09400C0A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TBCCore-mac.framework";
+			productName = TBCCore;
+			productReference = 2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCA12AF1ADFB84B0087A693 /* Build configuration list for PBXNativeTarget "TBCCore-iOS.framework" */;
+			buildPhases = (
+				2CCA12921ADFB84A0087A693 /* Sources */,
+				2CCA12931ADFB84A0087A693 /* Frameworks */,
+				2CCA12941ADFB84A0087A693 /* Headers */,
+				2CCA12951ADFB84A0087A693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TBCCore-iOS.framework";
+			productName = TBCCore;
+			productReference = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3084F8F1987E2EB00C30AFA /* Build configuration list for PBXNativeTarget "TBCCore-iOS" */;
@@ -577,6 +704,12 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Tabcorp Pty. Ltd.";
 				TargetAttributes = {
+					2C12543E1ADFF09400C0A0B0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2CCA12961ADFB84A0087A693 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					A3084F7B1987E2EB00C30AFA = {
 						TestTargetID = A3DBD4B91987EA6F00EDCAD2;
 					};
@@ -607,7 +740,9 @@
 			projectRoot = "";
 			targets = (
 				A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */,
+				2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */,
 				A3DBD48D1987E68B00EDCAD2 /* TBCCore-mac */,
+				2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */,
 				A3084F7B1987E2EB00C30AFA /* TBCCoreTests-iOS */,
 				A3DBD49E1987E68C00EDCAD2 /* TBCCoreTests-mac */,
 				A3DBD4B91987EA6F00EDCAD2 /* TBCCoreExample-iOS */,
@@ -627,6 +762,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C12543D1ADFF09400C0A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12951ADFB84A0087A693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F7A1987E2EB00C30AFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -659,6 +808,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C12543A1ADFF09400C0A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12921ADFB84A0087A693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA12B71ADFB8D00087A693 /* NSMapTable+TBCCore.m in Sources */,
+				2CCA12C11ADFB8D00087A693 /* TBCCurrencyFormatter.m in Sources */,
+				2CCA12BB1ADFB8D00087A693 /* TBCActionSheet-ios.m in Sources */,
+				2CCA12B51ADFB8D00087A693 /* NSMutableDictionary+TBCCore.m in Sources */,
+				2CCA12C71ADFB8D00087A693 /* TBCDispatch.m in Sources */,
+				2CCA12CF1ADFB8D00087A693 /* TBCPredicateBlock.m in Sources */,
+				2CCA12CD1ADFB8D00087A693 /* TBCPersistenceURLProvider.m in Sources */,
+				2CCA12C31ADFB8D00087A693 /* TBCDebugging.m in Sources */,
+				2CCA12D11ADFB8D00087A693 /* TBCTimeInterval.m in Sources */,
+				2CCA12BD1ADFB8D00087A693 /* TBCAlertView-ios.m in Sources */,
+				2CCA12CB1ADFB8D00087A693 /* TBCObjC.m in Sources */,
+				2CCA12C51ADFB8D00087A693 /* TBCDelayedDispatcher.m in Sources */,
+				2CCA12D51ADFB8D00087A693 /* TBCTypeSafety.m in Sources */,
+				2CCA12B91ADFB8D00087A693 /* NSString+TBCCore.m in Sources */,
+				2CCA12B31ADFB8D00087A693 /* NSArray+TBCCore.m in Sources */,
+				2CCA12C91ADFB8D00087A693 /* TBCStopwatch.m in Sources */,
+				2CCA12D31ADFB8D00087A693 /* TBCTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F681987E2EB00C30AFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -775,6 +955,94 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2C1254521ADFF09400C0A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A377E1491995C20B007F2F47 /* Target-mac.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TBCCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TBCCore;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C1254531ADFF09400C0A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A377E1491995C20B007F2F47 /* Target-mac.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TBCCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TBCCore;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CCA12AA1ADFB84B0087A693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TBCCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TBCCore;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2CCA12AB1ADFB84B0087A693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TBCCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TBCCore;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		A3084F8D1987E2EB00C30AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */;
@@ -959,6 +1227,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C1254561ADFF09400C0A0B0 /* Build configuration list for PBXNativeTarget "TBCCore-mac.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1254521ADFF09400C0A0B0 /* Debug */,
+				2C1254531ADFF09400C0A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCA12AF1ADFB84B0087A693 /* Build configuration list for PBXNativeTarget "TBCCore-iOS.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCA12AA1ADFB84B0087A693 /* Debug */,
+				2CCA12AB1ADFB84B0087A693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A3084F671987E2EB00C30AFA /* Build configuration list for PBXProject "TBCCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
