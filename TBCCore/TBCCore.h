@@ -1,5 +1,10 @@
 //  Copyright (c) 2014 Tabcorp. All rights reserved.
 
+#import <Foundation/Foundation.h>
+
+FOUNDATION_EXPORT double TBCCoreVersionNumber;
+FOUNDATION_EXPORT const unsigned char TBCCoreVersionString[];
+
 #import <TBCCore/TBCCoreTypes.h>
 #import <TBCCore/TBCPredicateBlock.h>
 #import <TBCCore/NSArray+TBCCore.h>
