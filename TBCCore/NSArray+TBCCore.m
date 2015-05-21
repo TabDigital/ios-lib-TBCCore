@@ -254,4 +254,38 @@
     return splits.copy;
 }
 
+- (NSArray *)tbc_split:(NSUInteger)splitSize maximumNumberOfSplits:(NSUInteger)maximumNumberOfSplits {
+    NSParameterAssert(splitSize > 0);
+    if (splitSize <= 0) {
+        splitSize = 1;
+    }
+
+    NSParameterAssert(maximumNumberOfSplits > 0);
+    if (maximumNumberOfSplits <= 0) {
+        maximumNumberOfSplits = 1;
+    }
+
+    NSUInteger const count = self.count;
+    NSMutableArray * const splits = [[NSMutableArray alloc] initWithCapacity:maximumNumberOfSplits];
+
+    NSUInteger numberOfSplits = 0;
+    for (NSUInteger i = 0; i < count; i += splitSize) {
+        NSUInteger const remaining = count - i;
+        if (++numberOfSplits == maximumNumberOfSplits) {
+            NSArray * const split = [self subarrayWithRange:(NSRange){
+                .location = i,
+                .length = remaining,
+            }];
+            [splits addObject:split];
+            break;
+        }
+        NSArray * const split = [self subarrayWithRange:(NSRange){
+            .location = i,
+            .length = MIN(splitSize, remaining),
+        }];
+        [splits addObject:split];
+    }
+    return splits.copy;
+}
+
 @end
