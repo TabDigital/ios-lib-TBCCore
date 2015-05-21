@@ -42,6 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSArray<ObjectType> *)tbc_arrayByRemovingDuplicatesWithEqualityBlock:(TBCGenericObjectObjectPredicateBlock(ObjectType))equalityBlock;
 
+- (NSArray<ObjectType> *)tbc_split:(NSUInteger)splitSize;
+
 @end
 
 NS_ASSUME_NONNULL_END

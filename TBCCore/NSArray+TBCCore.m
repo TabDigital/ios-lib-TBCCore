@@ -234,4 +234,24 @@
     return result;
 }
 
+- (NSArray *)tbc_split:(NSUInteger)splitSize {
+    NSParameterAssert(splitSize > 0);
+    if (splitSize <= 0) {
+        splitSize = 1;
+    }
+
+    NSUInteger const count = self.count;
+    NSMutableArray * const splits = [[NSMutableArray alloc] initWithCapacity:((count + splitSize - 1) / splitSize)];
+
+    for (NSUInteger i = 0; i < count; i += splitSize) {
+        NSUInteger const remaining = count - i;
+        NSArray * const split = [self subarrayWithRange:(NSRange){
+            .location = i,
+            .length = MIN(splitSize, remaining),
+        }];
+        [splits addObject:split];
+    }
+    return splits.copy;
+}
+
 @end
