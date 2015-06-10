@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-               BuildableName = "TBCCoreExample-iOS.app"
+               BuildableName = "TBCCore.app"
                BlueprintName = "TBCCoreExample-iOS"
                ReferencedContainer = "container:TBCCore.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCoreExample-iOS.app"
+            BuildableName = "TBCCore.app"
             BlueprintName = "TBCCoreExample-iOS"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
@@ -58,11 +58,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCoreExample-iOS.app"
+            BuildableName = "TBCCore.app"
             BlueprintName = "TBCCoreExample-iOS"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
@@ -76,11 +77,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCoreExample-iOS.app"
+            BuildableName = "TBCCore.app"
             BlueprintName = "TBCCoreExample-iOS"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
