@@ -28,7 +28,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A3084F7B1987E2EB00C30AFA"
+               BuildableName = "TBCCoreTests-iOS.xctest"
+               BlueprintName = "TBCCoreTests-iOS"
+               ReferencedContainer = "container:TBCCore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2CCA12961ADFB84A0087A693"
+            BuildableName = "TBCCore.framework"
+            BlueprintName = "TBCCore-iOS.framework"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"

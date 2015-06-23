@@ -2,5 +2,8 @@
 
 SDKROOT = macosx
 
-LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
-FRAMEWORK_VERSION = A
+HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)
+FRAMEWORK_SEARCH_PATHS = $(inherited)
+OTHER_LDFLAGS = $(inherited) -ObjC
+
+MACOSX_DEPLOYMENT_TARGET = 10.9

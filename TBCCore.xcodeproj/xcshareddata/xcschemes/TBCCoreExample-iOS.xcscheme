@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-               BuildableName = "TBCCore.app"
+               BuildableName = "TBCCoreExample.app"
                BlueprintName = "TBCCoreExample-iOS"
                ReferencedContainer = "container:TBCCore.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCore.app"
+            BuildableName = "TBCCoreExample.app"
             BlueprintName = "TBCCoreExample-iOS"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCore.app"
+            BuildableName = "TBCCoreExample.app"
             BlueprintName = "TBCCoreExample-iOS"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCore.app"
+            BuildableName = "TBCCoreExample.app"
             BlueprintName = "TBCCoreExample-iOS"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>

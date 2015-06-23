@@ -1,4 +1,4 @@
-//  Copyright (c) 2014 Tabcorp Pty. Ltd. All rights reserved.
+//  Copyright (c) 2015 Tabcorp Pty. Ltd. All rights reserved.
 
 SDKROOT = iphoneos
 SKIP_INSTALL = YES
@@ -7,4 +7,5 @@ HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)
 FRAMEWORK_SEARCH_PATHS = $(inherited)
 OTHER_LDFLAGS = $(inherited) -ObjC
 
-IPHONEOS_DEPLOYMENT_TARGET = 7.0
+PRODUCT_NAME = TBCCoreTests
+IPHONEOS_DEPLOYMENT_TARGET = 8.0
