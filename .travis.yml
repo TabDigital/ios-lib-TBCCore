@@ -1,15 +1,22 @@
 language: objective-c
+osx_image: beta-xcode6.3
+
+xcode_project: TBCCore.xcodeproj
+matrix:
+  include:
+    - xcode_sdk: iphonesimulator
+        xcode_scheme: TBCCore-iOS.framework
+        script:
+          - xcodebuild build test -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" -destination "OS=8.3,name=iPhone 6" | xcpretty
+    - xcode_sdk: macosx
+          xcode_scheme: TBCCore-mac.framework
+          script:
+              - xcodebuild build test -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" | xcpretty
+
 branches:
   only:
     - master
 
-env:
-  - XCODE_SCHEME="TBCCore-iOS" XCODE_SDK=iphonesimulator
-  - XCODE_SCHEME="TBCCoreExample-iOS" XCODE_SDK=iphonesimulator
-  - XCODE_SCHEME="TBCCore-mac" XCODE_SDK=macosx10.9
-
-before_install:
-  - brew update && brew upgrade xctool
-
-script:
-  - xctool test -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK"
+before_script:
+  - set -o pipefail
+  - gem install xcpretty
