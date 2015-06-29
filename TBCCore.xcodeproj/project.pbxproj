@@ -144,7 +144,7 @@
 		A3DBD4CD1987EA6F00EDCAD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DBD4CC1987EA6F00EDCAD2 /* Images.xcassets */; };
 		A3DBD4DF1987EA6F00EDCAD2 /* TBCCoreExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */; };
 		BF139C481B3A27B9006DBC3B /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; };
-		BF139C4D1B3A27CD006DBC3B /* TBCCore_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C12543F1ADFF09400C0A0B0 /* TBCCore_Mac.framework */; };
+		BF139C4D1B3A27CD006DBC3B /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */; };
 		BF6D8DB31B3389760015E8D6 /* TBCCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BFF9784A1B2953EC00A11FDA /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
 		BFF9784B1B29541300A11FDA /* NSDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A32272E81ADF873A00CBF58F /* NSDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -228,7 +228,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C12543F1ADFF09400C0A0B0 /* TBCCore_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCA12971ADFB84A0087A693 /* TBCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCA129A1ADFB84B0087A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TBCCore.h"; sourceTree = "<group>"; };
@@ -284,6 +284,7 @@
 		A3DBD4D21987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreExampleTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD4DA1987EA6F00EDCAD2 /* TBCCoreExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCCoreExampleTests.m; sourceTree = "<group>"; };
+		BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Framework-mac.xcconfig"; path = "Configuration/Framework-mac.xcconfig"; sourceTree = SOURCE_ROOT; };
 		BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-iOS.xcconfig"; sourceTree = "<group>"; };
 		BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Framework-iOS.xcconfig"; path = "Configuration/Framework-iOS.xcconfig"; sourceTree = SOURCE_ROOT; };
 		D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBCCoreTests.m"; sourceTree = "<group>"; };
@@ -348,7 +349,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF139C4D1B3A27CD006DBC3B /* TBCCore_Mac.framework in Frameworks */,
+				BF139C4D1B3A27CD006DBC3B /* TBCCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +393,7 @@
 				A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample.app */,
 				A3DBD4D21987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS.xctest */,
 				2CCA12971ADFB84A0087A693 /* TBCCore.framework */,
-				2C12543F1ADFF09400C0A0B0 /* TBCCore_Mac.framework */,
+				2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -474,6 +475,7 @@
 				BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */,
 				A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */,
 				A377E1491995C20B007F2F47 /* Target-mac.xcconfig */,
+				BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */,
 			);
 			name = Configuration;
 			path = TBCCoreExampleTests;
@@ -610,7 +612,7 @@
 			);
 			name = "TBCCore-mac.framework";
 			productName = TBCCore;
-			productReference = 2C12543F1ADFF09400C0A0B0 /* TBCCore_Mac.framework */;
+			productReference = 2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */ = {
@@ -1102,6 +1104,7 @@
 		};
 		A3DBD4B11987E68C00EDCAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1124,6 +1127,7 @@
 		};
 		A3DBD4B21987E68C00EDCAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1216,22 +1220,20 @@
 		};
 		BFBBEA3C1B32926E007A86E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A377E1491995C20B007F2F47 /* Target-mac.xcconfig */;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = TBCCore_Mac;
 			};
 			name = Debug;
 		};
 		BFBBEA3D1B32926E007A86E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A377E1491995C20B007F2F47 /* Target-mac.xcconfig */;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = TBCCore_Mac;
 			};
 			name = Release;
 		};
