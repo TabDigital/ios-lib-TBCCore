@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C12543E1ADFF09400C0A0B0"
-               BuildableName = "TBCCore.framework"
+               BuildableName = "TBCCore_Mac.framework"
                BlueprintName = "TBCCore-mac.framework"
                ReferencedContainer = "container:TBCCore.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C12543E1ADFF09400C0A0B0"
-            BuildableName = "TBCCore.framework"
+            BuildableName = "TBCCore_Mac.framework"
             BlueprintName = "TBCCore-mac.framework"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C12543E1ADFF09400C0A0B0"
-            BuildableName = "TBCCore.framework"
+            BuildableName = "TBCCore_Mac.framework"
             BlueprintName = "TBCCore-mac.framework"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C12543E1ADFF09400C0A0B0"
-            BuildableName = "TBCCore.framework"
+            BuildableName = "TBCCore_Mac.framework"
             BlueprintName = "TBCCore-mac.framework"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
