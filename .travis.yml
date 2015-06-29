@@ -6,10 +6,7 @@ branches:
     - master
 
 before_install:
-  - brew update
-  - brew install carthage
   - gem install xcpretty
-  - carthage bootstrap --use-ssh --configuration Debug --platform Mac
 
 before_script:
   - set -o pipefail
