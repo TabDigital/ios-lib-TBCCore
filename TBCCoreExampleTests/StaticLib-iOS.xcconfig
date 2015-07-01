@@ -1,0 +1,14 @@
+//  Copyright (c) 2015 Tabcorp Pty. Ltd. All rights reserved.
+
+SDKROOT = iphoneos
+SKIP_INSTALL = YES
+
+DEFINES_MODULE = NO
+
+HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT) $(SRCROOT)/Carthage/Checkouts/** $(SRCROOT)/../Carthage/Checkouts/**
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(SRCROOT)
+OTHER_LDFLAGS = $(inherited) -ObjC
+
+LIBRARY_SEARCH_PATHS = $(SRCROOT)/Carthage/Checkouts/** $(SRCROOT)/../Carthage/Checkouts/**
+
+IPHONEOS_DEPLOYMENT_TARGET = 7.0
