@@ -143,9 +143,9 @@
 		A3DBD4CB1987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4CA1987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.m */; };
 		A3DBD4CD1987EA6F00EDCAD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DBD4CC1987EA6F00EDCAD2 /* Images.xcassets */; };
 		A3DBD4DF1987EA6F00EDCAD2 /* TBCCoreExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */; };
-		BF139C481B3A27B9006DBC3B /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; };
 		BF139C4D1B3A27CD006DBC3B /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */; };
 		BF6D8DB31B3389760015E8D6 /* TBCCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BF79D9C01B44D19D0051932B /* libTBCCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6C1987E2EB00C30AFA /* libTBCCore.a */; };
 		BFF9784A1B2953EC00A11FDA /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
 		BFF9784B1B29541300A11FDA /* NSDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A32272E81ADF873A00CBF58F /* NSDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFF9784C1B29550300A11FDA /* NSSet+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */; };
@@ -188,19 +188,19 @@
 			remoteGlobalIDString = A3DBD4B91987EA6F00EDCAD2;
 			remoteInfo = "TBCCore Example";
 		};
-		BF139C491B3A27BE006DBC3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CCA12961ADFB84A0087A693;
-			remoteInfo = "TBCCore-iOS.framework";
-		};
 		BF139C4B1B3A27C9006DBC3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2C12543E1ADFF09400C0A0B0;
 			remoteInfo = "TBCCore-mac.framework";
+		};
+		BF79D9BE1B44D1980051932B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3084F6B1987E2EB00C30AFA;
+			remoteInfo = "TBCCore-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -335,7 +335,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF139C481B3A27B9006DBC3B /* TBCCore.framework in Frameworks */,
+				BF79D9C01B44D19D0051932B /* libTBCCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +663,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BF139C4A1B3A27BE006DBC3B /* PBXTargetDependency */,
+				BF79D9BF1B44D1980051932B /* PBXTargetDependency */,
 			);
 			name = "TBCCoreTests-iOS";
 			productName = TBCCoreTests;
@@ -782,10 +782,10 @@
 			projectRoot = "";
 			targets = (
 				A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */,
+				A3084F7B1987E2EB00C30AFA /* TBCCoreTests-iOS */,
 				2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */,
 				A3DBD48D1987E68B00EDCAD2 /* TBCCore-mac */,
 				2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */,
-				A3084F7B1987E2EB00C30AFA /* TBCCoreTests-iOS */,
 				A3DBD49E1987E68C00EDCAD2 /* TBCCoreTests-mac */,
 				A3DBD4B91987EA6F00EDCAD2 /* TBCCoreExample-iOS */,
 				A3DBD4D11987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS */,
@@ -1001,15 +1001,15 @@
 			target = A3DBD4B91987EA6F00EDCAD2 /* TBCCoreExample-iOS */;
 			targetProxy = A3DBD4D61987EA6F00EDCAD2 /* PBXContainerItemProxy */;
 		};
-		BF139C4A1B3A27BE006DBC3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */;
-			targetProxy = BF139C491B3A27BE006DBC3B /* PBXContainerItemProxy */;
-		};
 		BF139C4C1B3A27C9006DBC3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */;
 			targetProxy = BF139C4B1B3A27C9006DBC3B /* PBXContainerItemProxy */;
+		};
+		BF79D9BF1B44D1980051932B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */;
+			targetProxy = BF79D9BE1B44D1980051932B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -9,3 +9,5 @@ OTHER_LDFLAGS = $(inherited) -ObjC
 
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 IPHONEOS_DEPLOYMENT_TARGET = 8.0
+
+DEFINES_MODULE = YES

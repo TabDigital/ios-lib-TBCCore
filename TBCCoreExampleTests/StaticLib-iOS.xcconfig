@@ -12,3 +12,5 @@ OTHER_LDFLAGS = $(inherited) -ObjC
 LIBRARY_SEARCH_PATHS = $(SRCROOT)/Carthage/Checkouts/** $(SRCROOT)/../Carthage/Checkouts/**
 
 IPHONEOS_DEPLOYMENT_TARGET = 7.0
+
+DEFINES_MODULE = NO

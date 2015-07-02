@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3084F7B1987E2EB00C30AFA"
-               BuildableName = "TBCCoreTests-iOS.xctest"
-               BlueprintName = "TBCCoreTests-iOS"
-               ReferencedContainer = "container:TBCCore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
