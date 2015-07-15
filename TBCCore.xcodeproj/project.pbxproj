@@ -260,13 +260,13 @@
 		A377E0DB199253ED007F2F47 /* TBCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCAlertView.h; sourceTree = "<group>"; };
 		A377E0DD199253F2007F2F47 /* TBCAlertView-ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCAlertView-ios.m"; sourceTree = "<group>"; };
 		A377E0DE199253F2007F2F47 /* TBCAlertView-mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCAlertView-mac.m"; sourceTree = "<group>"; };
-		A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Project-Debug.xcconfig"; path = "Configuration/Project-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E1461995C20B007F2F47 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Project-Release.xcconfig"; path = "Configuration/Project-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E1471995C20B007F2F47 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Configuration/Project.xcconfig; sourceTree = SOURCE_ROOT; };
-		A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Target-iOS.xcconfig"; path = "Configuration/Target-iOS.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E1491995C20B007F2F47 /* Target-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Target-mac.xcconfig"; path = "Configuration/Target-mac.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E14A1995C20B007F2F47 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Warnings.xcconfig; path = Configuration/Warnings.xcconfig; sourceTree = SOURCE_ROOT; };
-		A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "TBCCoreExample-ios.xcconfig"; path = "Configuration/TBCCoreExample-ios.xcconfig"; sourceTree = SOURCE_ROOT; };
+		A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		A377E1461995C20B007F2F47 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		A377E1471995C20B007F2F47 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-iOS.xcconfig"; sourceTree = "<group>"; };
+		A377E1491995C20B007F2F47 /* Target-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-mac.xcconfig"; sourceTree = "<group>"; };
+		A377E14A1995C20B007F2F47 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TBCCoreExample-ios.xcconfig"; sourceTree = "<group>"; };
 		A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCPredicateBlock.h; sourceTree = "<group>"; };
 		A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCPredicateBlock.m; sourceTree = "<group>"; };
 		A3A6BE161987EE280073C4DB /* TBCCoreExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCCoreExampleViewController.h; sourceTree = "<group>"; };
@@ -284,10 +284,10 @@
 		A3DBD4D21987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreExampleTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD4DA1987EA6F00EDCAD2 /* TBCCoreExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCCoreExampleTests.m; sourceTree = "<group>"; };
-		BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Framework-mac.xcconfig"; path = "Configuration/Framework-mac.xcconfig"; sourceTree = SOURCE_ROOT; };
-		BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-iOS.xcconfig"; sourceTree = "<group>"; };
-		BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Framework-iOS.xcconfig"; path = "Configuration/Framework-iOS.xcconfig"; sourceTree = SOURCE_ROOT; };
-		BFE5585F1B43B7AE00142C2F /* StaticLib-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "StaticLib-iOS.xcconfig"; sourceTree = "<group>"; };
+		BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-mac.xcconfig"; sourceTree = "<group>"; };
+		BF74C52D1B3A1DC10040AB9D /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tests-iOS.xcconfig"; sourceTree = "<group>"; };
+		BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-iOS.xcconfig"; sourceTree = "<group>"; };
+		BFE5585F1B43B7AE00142C2F /* StaticLib-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "StaticLib-iOS.xcconfig"; path = "StaticLib-iOS.xcconfig"; sourceTree = "<group>"; };
 		D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBCCoreTests.m"; sourceTree = "<group>"; };
 		FD4936B91999BAB40079A886 /* TBCObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCObjC.h; sourceTree = "<group>"; };
 		FD4936BA1999BAB40079A886 /* TBCObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCObjC.m; sourceTree = "<group>"; };
@@ -479,8 +479,7 @@
 				A377E1491995C20B007F2F47 /* Target-mac.xcconfig */,
 				BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */,
 			);
-			name = Configuration;
-			path = TBCCoreExampleTests;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		A3DBD4C01987EA6F00EDCAD2 /* TBCCoreExample */ = {
