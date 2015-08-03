@@ -7,112 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3017FCE1A84663D0055A22A /* NSMutableDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */; };
+		2C12540A1ADFEC7500C0A0B0 /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; };
+		2C1254631ADFF2DF00C0A0B0 /* TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; };
+		2C1254641ADFF2DF00C0A0B0 /* TBCCoreTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */; };
+		2C1254651ADFF2DF00C0A0B0 /* NSArray+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */; };
+		2C1254661ADFF2DF00C0A0B0 /* NSArray+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001801A2D38FA0091B978 /* NSArray+TBCCore.m */; };
+		2C1254671ADFF2DF00C0A0B0 /* NSMutableDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */; };
+		2C1254681ADFF2DF00C0A0B0 /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
+		2C1254691ADFF2DF00C0A0B0 /* NSMapTable+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926831ADE174600C1BEE0 /* NSMapTable+TBCCore.h */; };
+		2C12546A1ADFF2DF00C0A0B0 /* NSMapTable+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA926841ADE174600C1BEE0 /* NSMapTable+TBCCore.m */; };
+		2C12546B1ADFF2DF00C0A0B0 /* NSString+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFFE7A81ACCDB3F00F8B782 /* NSString+TBCCore.h */; };
+		2C12546C1ADFF2DF00C0A0B0 /* NSString+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFE7A91ACCDB3F00F8B782 /* NSString+TBCCore.m */; };
+		2C12546D1ADFF2DF00C0A0B0 /* TBCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A893219B548D100D070E2 /* TBCActionSheet.h */; };
+		2C12546F1ADFF2DF00C0A0B0 /* TBCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0DB199253ED007F2F47 /* TBCAlertView.h */; };
+		2C1254711ADFF2DF00C0A0B0 /* TBCAlertView-mac.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0DE199253F2007F2F47 /* TBCAlertView-mac.m */; };
+		2C1254721ADFF2DF00C0A0B0 /* TBCCoreDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17719EB4D33009A2236 /* TBCCoreDefines.h */; };
+		2C1254731ADFF2DF00C0A0B0 /* TBCCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A31013F319E60F7D00092156 /* TBCCurrencyFormatter.h */; };
+		2C1254741ADFF2DF00C0A0B0 /* TBCCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A31013F419E60F7D00092156 /* TBCCurrencyFormatter.m */; };
+		2C1254751ADFF2DF00C0A0B0 /* TBCDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17819EB4E3C009A2236 /* TBCDebugging.h */; };
+		2C1254761ADFF2DF00C0A0B0 /* TBCDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBDE17919EB4E3C009A2236 /* TBCDebugging.m */; };
+		2C1254771ADFF2DF00C0A0B0 /* TBCDelayedDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936C91999D4460079A886 /* TBCDelayedDispatcher.h */; };
+		2C1254781ADFF2DF00C0A0B0 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
+		2C1254791ADFF2DF00C0A0B0 /* TBCDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF177199B53F000E2E356 /* TBCDispatch.h */; };
+		2C12547A1ADFF2DF00C0A0B0 /* TBCDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF178199B53F000E2E356 /* TBCDispatch.m */; };
+		2C12547B1ADFF2DF00C0A0B0 /* TBCStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C9ABC91A688838002323ED /* TBCStopwatch.h */; };
+		2C12547C1ADFF2DF00C0A0B0 /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
+		2C12547D1ADFF2DF00C0A0B0 /* TBCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936B91999BAB40079A886 /* TBCObjC.h */; };
+		2C12547E1ADFF2DF00C0A0B0 /* TBCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BA1999BAB40079A886 /* TBCObjC.m */; };
+		2C12547F1ADFF2DF00C0A0B0 /* TBCPersistenceURLProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD56C8B419C7FD04008E9B11 /* TBCPersistenceURLProvider.h */; };
+		2C1254801ADFF2DF00C0A0B0 /* TBCPersistenceURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD56C8B519C7FD04008E9B11 /* TBCPersistenceURLProvider.m */; };
+		2C1254811ADFF2DF00C0A0B0 /* TBCPredicateBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */; };
+		2C1254821ADFF2DF00C0A0B0 /* TBCPredicateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */; };
+		2C1254831ADFF2DF00C0A0B0 /* TBCTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0D61992529D007F2F47 /* TBCTimeInterval.h */; };
+		2C1254841ADFF2DF00C0A0B0 /* TBCTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D71992529D007F2F47 /* TBCTimeInterval.m */; };
+		2C1254851ADFF2DF00C0A0B0 /* TBCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF172199B195400E2E356 /* TBCTimer.h */; };
+		2C1254861ADFF2DF00C0A0B0 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
+		2C1254871ADFF2DF00C0A0B0 /* TBCTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0CE19925129007F2F47 /* TBCTypeSafety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254881ADFF2DF00C0A0B0 /* TBCTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0CF19925129007F2F47 /* TBCTypeSafety.m */; };
+		2C1254891ADFF2ED00C0A0B0 /* TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12548A1ADFF2ED00C0A0B0 /* TBCCoreTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12548B1ADFF2ED00C0A0B0 /* NSArray+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12548C1ADFF2ED00C0A0B0 /* NSArray+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001801A2D38FA0091B978 /* NSArray+TBCCore.m */; };
+		2C12548D1ADFF2ED00C0A0B0 /* NSMutableDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12548E1ADFF2ED00C0A0B0 /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
+		2C12548F1ADFF2ED00C0A0B0 /* NSMapTable+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926831ADE174600C1BEE0 /* NSMapTable+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254901ADFF2ED00C0A0B0 /* NSMapTable+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA926841ADE174600C1BEE0 /* NSMapTable+TBCCore.m */; };
+		2C1254911ADFF2ED00C0A0B0 /* NSString+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFFE7A81ACCDB3F00F8B782 /* NSString+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254921ADFF2ED00C0A0B0 /* NSString+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFE7A91ACCDB3F00F8B782 /* NSString+TBCCore.m */; };
+		2C1254931ADFF2ED00C0A0B0 /* TBCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A893219B548D100D070E2 /* TBCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254941ADFF2ED00C0A0B0 /* TBCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0DB199253ED007F2F47 /* TBCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254961ADFF2ED00C0A0B0 /* TBCAlertView-mac.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0DE199253F2007F2F47 /* TBCAlertView-mac.m */; };
+		2C1254971ADFF2ED00C0A0B0 /* TBCCoreDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17719EB4D33009A2236 /* TBCCoreDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254981ADFF2ED00C0A0B0 /* TBCCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A31013F319E60F7D00092156 /* TBCCurrencyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254991ADFF2ED00C0A0B0 /* TBCCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A31013F419E60F7D00092156 /* TBCCurrencyFormatter.m */; };
+		2C12549A1ADFF2ED00C0A0B0 /* TBCDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17819EB4E3C009A2236 /* TBCDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12549B1ADFF2ED00C0A0B0 /* TBCDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBDE17919EB4E3C009A2236 /* TBCDebugging.m */; };
+		2C12549C1ADFF2ED00C0A0B0 /* TBCDelayedDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936C91999D4460079A886 /* TBCDelayedDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12549D1ADFF2ED00C0A0B0 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
+		2C12549E1ADFF2ED00C0A0B0 /* TBCDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF177199B53F000E2E356 /* TBCDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C12549F1ADFF2ED00C0A0B0 /* TBCDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF178199B53F000E2E356 /* TBCDispatch.m */; };
+		2C1254A01ADFF2ED00C0A0B0 /* TBCStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C9ABC91A688838002323ED /* TBCStopwatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254A11ADFF2ED00C0A0B0 /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
+		2C1254A21ADFF2ED00C0A0B0 /* TBCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936B91999BAB40079A886 /* TBCObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254A31ADFF2ED00C0A0B0 /* TBCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BA1999BAB40079A886 /* TBCObjC.m */; };
+		2C1254A41ADFF2ED00C0A0B0 /* TBCPersistenceURLProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD56C8B419C7FD04008E9B11 /* TBCPersistenceURLProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254A51ADFF2ED00C0A0B0 /* TBCPersistenceURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD56C8B519C7FD04008E9B11 /* TBCPersistenceURLProvider.m */; };
+		2C1254A61ADFF2ED00C0A0B0 /* TBCPredicateBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254A71ADFF2ED00C0A0B0 /* TBCPredicateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */; };
+		2C1254A81ADFF2ED00C0A0B0 /* TBCTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0D61992529D007F2F47 /* TBCTimeInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254A91ADFF2ED00C0A0B0 /* TBCTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D71992529D007F2F47 /* TBCTimeInterval.m */; };
+		2C1254AA1ADFF2ED00C0A0B0 /* TBCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF172199B195400E2E356 /* TBCTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254AB1ADFF2ED00C0A0B0 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
+		2C1254AC1ADFF2ED00C0A0B0 /* TBCTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0CE19925129007F2F47 /* TBCTypeSafety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1254AD1ADFF2ED00C0A0B0 /* TBCTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0CF19925129007F2F47 /* TBCTypeSafety.m */; };
+		2CB6839D1ADFBF9600CC9BD2 /* TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B11ADFB8D00087A693 /* TBCCoreTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B21ADFB8D00087A693 /* NSArray+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B31ADFB8D00087A693 /* NSArray+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001801A2D38FA0091B978 /* NSArray+TBCCore.m */; };
+		2CCA12B41ADFB8D00087A693 /* NSMutableDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B51ADFB8D00087A693 /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
+		2CCA12B61ADFB8D00087A693 /* NSMapTable+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA926831ADE174600C1BEE0 /* NSMapTable+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B71ADFB8D00087A693 /* NSMapTable+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA926841ADE174600C1BEE0 /* NSMapTable+TBCCore.m */; };
+		2CCA12B81ADFB8D00087A693 /* NSString+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFFE7A81ACCDB3F00F8B782 /* NSString+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12B91ADFB8D00087A693 /* NSString+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFE7A91ACCDB3F00F8B782 /* NSString+TBCCore.m */; };
+		2CCA12BA1ADFB8D00087A693 /* TBCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A893219B548D100D070E2 /* TBCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12BB1ADFB8D00087A693 /* TBCActionSheet-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A893319B548D100D070E2 /* TBCActionSheet-ios.m */; };
+		2CCA12BC1ADFB8D00087A693 /* TBCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0DB199253ED007F2F47 /* TBCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12BD1ADFB8D00087A693 /* TBCAlertView-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0DD199253F2007F2F47 /* TBCAlertView-ios.m */; };
+		2CCA12BF1ADFB8D00087A693 /* TBCCoreDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17719EB4D33009A2236 /* TBCCoreDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C01ADFB8D00087A693 /* TBCCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A31013F319E60F7D00092156 /* TBCCurrencyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C11ADFB8D00087A693 /* TBCCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A31013F419E60F7D00092156 /* TBCCurrencyFormatter.m */; };
+		2CCA12C21ADFB8D00087A693 /* TBCDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17819EB4E3C009A2236 /* TBCDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C31ADFB8D00087A693 /* TBCDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBDE17919EB4E3C009A2236 /* TBCDebugging.m */; };
+		2CCA12C41ADFB8D00087A693 /* TBCDelayedDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936C91999D4460079A886 /* TBCDelayedDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C51ADFB8D00087A693 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
+		2CCA12C61ADFB8D00087A693 /* TBCDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF177199B53F000E2E356 /* TBCDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C71ADFB8D00087A693 /* TBCDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF178199B53F000E2E356 /* TBCDispatch.m */; };
+		2CCA12C81ADFB8D00087A693 /* TBCStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C9ABC91A688838002323ED /* TBCStopwatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12C91ADFB8D00087A693 /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
+		2CCA12CA1ADFB8D00087A693 /* TBCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936B91999BAB40079A886 /* TBCObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12CB1ADFB8D00087A693 /* TBCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BA1999BAB40079A886 /* TBCObjC.m */; };
+		2CCA12CC1ADFB8D00087A693 /* TBCPersistenceURLProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD56C8B419C7FD04008E9B11 /* TBCPersistenceURLProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12CD1ADFB8D00087A693 /* TBCPersistenceURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD56C8B519C7FD04008E9B11 /* TBCPersistenceURLProvider.m */; };
+		2CCA12CE1ADFB8D00087A693 /* TBCPredicateBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12CF1ADFB8D00087A693 /* TBCPredicateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */; };
+		2CCA12D01ADFB8D00087A693 /* TBCTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0D61992529D007F2F47 /* TBCTimeInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12D11ADFB8D00087A693 /* TBCTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D71992529D007F2F47 /* TBCTimeInterval.m */; };
+		2CCA12D21ADFB8D00087A693 /* TBCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF172199B195400E2E356 /* TBCTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12D31ADFB8D00087A693 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
+		2CCA12D41ADFB8D00087A693 /* TBCTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0CE19925129007F2F47 /* TBCTypeSafety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA12D51ADFB8D00087A693 /* TBCTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0CF19925129007F2F47 /* TBCTypeSafety.m */; };
 		A3017FCF1A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
-		A3017FD01A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */; };
 		A3084F751987E2EB00C30AFA /* TBCCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3084F741987E2EB00C30AFA /* TBCCore.h */; };
-		A3084F7E1987E2EB00C30AFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F7D1987E2EB00C30AFA /* XCTest.framework */; };
-		A3084F7F1987E2EB00C30AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3084F841987E2EB00C30AFA /* libTBCCore-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */; };
-		A30AF174199B195400E2E356 /* TBCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF172199B195400E2E356 /* TBCTimer.h */; };
 		A30AF175199B195400E2E356 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
-		A30AF176199B195400E2E356 /* TBCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF173199B195400E2E356 /* TBCTimer.m */; };
-		A30AF179199B53F000E2E356 /* TBCDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A30AF177199B53F000E2E356 /* TBCDispatch.h */; };
 		A30AF17A199B53F000E2E356 /* TBCDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF178199B53F000E2E356 /* TBCDispatch.m */; };
-		A30AF17B199B53F000E2E356 /* TBCDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF178199B53F000E2E356 /* TBCDispatch.m */; };
 		A30AF17D199B58ED00E2E356 /* TBCDispatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF17C199B58ED00E2E356 /* TBCDispatchTests.m */; };
 		A30AF17E199B58ED00E2E356 /* TBCDispatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF17C199B58ED00E2E356 /* TBCDispatchTests.m */; };
 		A30AF180199B88F500E2E356 /* TBCTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF17F199B88F500E2E356 /* TBCTimerTests.m */; };
 		A30AF181199B88F500E2E356 /* TBCTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AF17F199B88F500E2E356 /* TBCTimerTests.m */; };
-		A31013F519E60F7D00092156 /* TBCCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A31013F319E60F7D00092156 /* TBCCurrencyFormatter.h */; };
 		A31013F619E60F7D00092156 /* TBCCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A31013F419E60F7D00092156 /* TBCCurrencyFormatter.m */; };
-		A31013F719E60F7D00092156 /* TBCCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A31013F419E60F7D00092156 /* TBCCurrencyFormatter.m */; };
-		A32272EA1ADF873A00CBF58F /* NSDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A32272E81ADF873A00CBF58F /* NSDictionary+TBCCore.h */; };
 		A32272EB1ADF873A00CBF58F /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
-		A32272EC1ADF873A00CBF58F /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
-		A34F8DE01AF09FCF006A46C5 /* NSSet+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A34F8DDE1AF09FCF006A46C5 /* NSSet+TBCCore.h */; };
 		A34F8DE11AF09FCF006A46C5 /* NSSet+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */; };
-		A34F8DE21AF09FCF006A46C5 /* NSSet+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */; };
 		A37001811A2D38FA0091B978 /* NSArray+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001801A2D38FA0091B978 /* NSArray+TBCCore.m */; };
 		A37001831A2D40700091B978 /* NSArray+TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001821A2D40700091B978 /* NSArray+TBCCoreTests.m */; };
 		A37001841A2D40820091B978 /* NSArray+TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001821A2D40700091B978 /* NSArray+TBCCoreTests.m */; };
-		A377E0D019925129007F2F47 /* TBCTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0CE19925129007F2F47 /* TBCTypeSafety.h */; };
 		A377E0D119925129007F2F47 /* TBCTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0CF19925129007F2F47 /* TBCTypeSafety.m */; };
-		A377E0D219925129007F2F47 /* TBCTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0CF19925129007F2F47 /* TBCTypeSafety.m */; };
 		A377E0D419925131007F2F47 /* TBCTypeSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D319925131007F2F47 /* TBCTypeSafetyTests.m */; };
 		A377E0D519925131007F2F47 /* TBCTypeSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D319925131007F2F47 /* TBCTypeSafetyTests.m */; };
-		A377E0D81992529D007F2F47 /* TBCTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0D61992529D007F2F47 /* TBCTimeInterval.h */; };
 		A377E0D91992529D007F2F47 /* TBCTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D71992529D007F2F47 /* TBCTimeInterval.m */; };
-		A377E0DA1992529D007F2F47 /* TBCTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0D71992529D007F2F47 /* TBCTimeInterval.m */; };
-		A377E0DC199253ED007F2F47 /* TBCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A377E0DB199253ED007F2F47 /* TBCAlertView.h */; };
 		A377E0DF199253F2007F2F47 /* TBCAlertView-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0DD199253F2007F2F47 /* TBCAlertView-ios.m */; };
-		A377E0E2199253F2007F2F47 /* TBCAlertView-mac.m in Sources */ = {isa = PBXBuildFile; fileRef = A377E0DE199253F2007F2F47 /* TBCAlertView-mac.m */; };
-		A381B3511A2D435D002BCE00 /* NSArray+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37001801A2D38FA0091B978 /* NSArray+TBCCore.m */; };
-		A38B6CB71A70B6AD008717C7 /* TBCPredicateBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */; };
 		A38B6CB81A70B6AD008717C7 /* TBCPredicateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */; };
-		A38B6CB91A70B6AD008717C7 /* TBCPredicateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */; };
 		A3A6BE181987EE280073C4DB /* TBCCoreExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BE171987EE280073C4DB /* TBCCoreExampleViewController.m */; };
-		A3C9ABCB1A688838002323ED /* TBCStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C9ABC91A688838002323ED /* TBCStopwatch.h */; };
 		A3C9ABCC1A688838002323ED /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
-		A3C9ABCD1A688838002323ED /* TBCStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9ABCA1A688838002323ED /* TBCStopwatch.m */; };
-		A3DBD4A01987E68C00EDCAD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F7D1987E2EB00C30AFA /* XCTest.framework */; };
-		A3DBD4A41987E68C00EDCAD2 /* libTBCCore-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD48E1987E68B00EDCAD2 /* libTBCCore-mac.a */; };
-		A3DBD4B51987E9EC00EDCAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3DBD4BB1987EA6F00EDCAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3DBD4BD1987EA6F00EDCAD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD4BC1987EA6F00EDCAD2 /* CoreGraphics.framework */; };
-		A3DBD4BF1987EA6F00EDCAD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */; };
 		A3DBD4C71987EA6F00EDCAD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4C61987EA6F00EDCAD2 /* main.m */; };
 		A3DBD4CB1987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4CA1987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.m */; };
 		A3DBD4CD1987EA6F00EDCAD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DBD4CC1987EA6F00EDCAD2 /* Images.xcassets */; };
-		A3DBD4D31987EA6F00EDCAD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F7D1987E2EB00C30AFA /* XCTest.framework */; };
-		A3DBD4D41987EA6F00EDCAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6F1987E2EB00C30AFA /* Foundation.framework */; };
-		A3DBD4D51987EA6F00EDCAD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */; };
 		A3DBD4DF1987EA6F00EDCAD2 /* TBCCoreExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */; };
+		BF139C4D1B3A27CD006DBC3B /* TBCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */; };
+		BF6D8DB31B3389760015E8D6 /* TBCCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BF79D9C01B44D19D0051932B /* libTBCCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3084F6C1987E2EB00C30AFA /* libTBCCore.a */; };
+		BFF9784A1B2953EC00A11FDA /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
+		BFF9784B1B29541300A11FDA /* NSDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A32272E81ADF873A00CBF58F /* NSDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF9784C1B29550300A11FDA /* NSSet+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */; };
+		BFF9784D1B29550900A11FDA /* NSSet+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A34F8DDE1AF09FCF006A46C5 /* NSSet+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF9784E1B29552A00A11FDA /* NSSet+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A34F8DDE1AF09FCF006A46C5 /* NSSet+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF9784F1B29552B00A11FDA /* NSSet+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A34F8DDE1AF09FCF006A46C5 /* NSSet+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF978501B29553800A11FDA /* NSSet+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */; };
+		BFF978511B29553900A11FDA /* NSSet+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */; };
+		BFF978561B29575A00A11FDA /* NSDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A32272E81ADF873A00CBF58F /* NSDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF978571B29575B00A11FDA /* NSDictionary+TBCCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A32272E81ADF873A00CBF58F /* NSDictionary+TBCCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF978581B29576800A11FDA /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
+		BFF978591B29576A00A11FDA /* NSDictionary+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A32272E91ADF873A00CBF58F /* NSDictionary+TBCCore.m */; };
 		D409CF861AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */; };
 		D409CF871AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */; };
-		FD4936BB1999BAB40079A886 /* TBCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936B91999BAB40079A886 /* TBCObjC.h */; };
 		FD4936BC1999BAB40079A886 /* TBCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BA1999BAB40079A886 /* TBCObjC.m */; };
-		FD4936BD1999BAB40079A886 /* TBCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BA1999BAB40079A886 /* TBCObjC.m */; };
 		FD4936BF1999CEB80079A886 /* TBCObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BE1999CEB80079A886 /* TBCObjCTests.m */; };
 		FD4936C01999CEB80079A886 /* TBCObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936BE1999CEB80079A886 /* TBCObjCTests.m */; };
-		FD4936CB1999D4460079A886 /* TBCDelayedDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4936C91999D4460079A886 /* TBCDelayedDispatcher.h */; };
 		FD4936CC1999D4460079A886 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
-		FD4936CD1999D4460079A886 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
 		FD4936DF199AE3920079A886 /* TBCDelayedDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936DE199AE3920079A886 /* TBCDelayedDispatcherTests.m */; };
 		FD4936E0199AE3920079A886 /* TBCDelayedDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936DE199AE3920079A886 /* TBCDelayedDispatcherTests.m */; };
 		FD4A893419B548D100D070E2 /* TBCActionSheet-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A893319B548D100D070E2 /* TBCActionSheet-ios.m */; };
-		FD4A893519B548E200D070E2 /* TBCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A893219B548D100D070E2 /* TBCActionSheet.h */; };
-		FD56C8B619C7FD04008E9B11 /* TBCPersistenceURLProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD56C8B419C7FD04008E9B11 /* TBCPersistenceURLProvider.h */; };
 		FD56C8B719C7FD04008E9B11 /* TBCPersistenceURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD56C8B519C7FD04008E9B11 /* TBCPersistenceURLProvider.m */; };
-		FD56C8B819C7FD04008E9B11 /* TBCPersistenceURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FD56C8B519C7FD04008E9B11 /* TBCPersistenceURLProvider.m */; };
 		FDA926851ADE174600C1BEE0 /* NSMapTable+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA926841ADE174600C1BEE0 /* NSMapTable+TBCCore.m */; };
-		FDBDE17A19EB4E3C009A2236 /* TBCDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDE17819EB4E3C009A2236 /* TBCDebugging.h */; };
 		FDBDE17B19EB4E3C009A2236 /* TBCDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBDE17919EB4E3C009A2236 /* TBCDebugging.m */; };
-		FDBDE17C19EB4E3C009A2236 /* TBCDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBDE17919EB4E3C009A2236 /* TBCDebugging.m */; };
 		FDFFE7AA1ACCDB3F00F8B782 /* NSString+TBCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFE7A91ACCDB3F00F8B782 /* NSString+TBCCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A3084F821987E2EB00C30AFA /* PBXContainerItemProxy */ = {
+		2C12540C1ADFEC7500C0A0B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3084F6B1987E2EB00C30AFA;
-			remoteInfo = TBCCore;
-		};
-		A377E1381994F0F2007F2F47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 838AFA372D2ADAB9B3E92A39;
-			remoteInfo = "TBCCoreExample-iOS-eggs";
-		};
-		A3DBD4A21987E68C00EDCAD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A3DBD48D1987E68B00EDCAD2;
-			remoteInfo = "TBCCore-mac";
+			remoteGlobalIDString = 2CCA12961ADFB84A0087A693;
+			remoteInfo = "TBCCore-iOS.framework";
 		};
 		A3DBD4D61987EA6F00EDCAD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -120,6 +187,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = A3DBD4B91987EA6F00EDCAD2;
 			remoteInfo = "TBCCore Example";
+		};
+		BF139C4B1B3A27C9006DBC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C12543E1ADFF09400C0A0B0;
+			remoteInfo = "TBCCore-mac.framework";
+		};
+		BF79D9BE1B44D1980051932B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3084F641987E2EB00C30AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3084F6B1987E2EB00C30AFA;
+			remoteInfo = "TBCCore-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -134,16 +215,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF6D8DB21B33895D0015E8D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				BF6D8DB31B3389760015E8D6 /* TBCCore.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCA12971ADFB84A0087A693 /* TBCCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBCCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCA129A1ADFB84B0087A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3017FCC1A84663D0055A22A /* NSMutableDictionary+TBCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TBCCore.h"; sourceTree = "<group>"; };
 		A3017FCD1A84663D0055A22A /* NSMutableDictionary+TBCCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBCCore.m"; sourceTree = "<group>"; };
-		A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTBCCore-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3084F6F1987E2EB00C30AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3084F6C1987E2EB00C30AFA /* libTBCCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTBCCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3084F741987E2EB00C30AFA /* TBCCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCCore.h; sourceTree = "<group>"; };
 		A3084F7C1987E2EB00C30AFA /* TBCCoreTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3084F7D1987E2EB00C30AFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A3084F871987E2EB00C30AFA /* TBCCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreTests-Info.plist"; sourceTree = "<group>"; };
 		A30AF172199B195400E2E356 /* TBCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCTimer.h; sourceTree = "<group>"; };
 		A30AF173199B195400E2E356 /* TBCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCTimer.m; sourceTree = "<group>"; };
@@ -168,26 +260,22 @@
 		A377E0DB199253ED007F2F47 /* TBCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCAlertView.h; sourceTree = "<group>"; };
 		A377E0DD199253F2007F2F47 /* TBCAlertView-ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCAlertView-ios.m"; sourceTree = "<group>"; };
 		A377E0DE199253F2007F2F47 /* TBCAlertView-mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCAlertView-mac.m"; sourceTree = "<group>"; };
-		A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "TBCCoreExample-iOS-eggs.xcodeproj"; path = ".eggs/TBCCoreExample-iOS/TBCCoreExample-iOS-eggs.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		A377E11F199457A2007F2F47 /* TBCCoreExample-iOS.eggfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TBCCoreExample-iOS.eggfile"; sourceTree = SOURCE_ROOT; };
-		A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Project-Debug.xcconfig"; path = "Configuration/Project-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E1461995C20B007F2F47 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Project-Release.xcconfig"; path = "Configuration/Project-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E1471995C20B007F2F47 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Configuration/Project.xcconfig; sourceTree = SOURCE_ROOT; };
-		A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Target-iOS.xcconfig"; path = "Configuration/Target-iOS.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E1491995C20B007F2F47 /* Target-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Target-mac.xcconfig"; path = "Configuration/Target-mac.xcconfig"; sourceTree = SOURCE_ROOT; };
-		A377E14A1995C20B007F2F47 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Warnings.xcconfig; path = Configuration/Warnings.xcconfig; sourceTree = SOURCE_ROOT; };
-		A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "TBCCoreExample-ios.xcconfig"; path = "Configuration/TBCCoreExample-ios.xcconfig"; sourceTree = SOURCE_ROOT; };
+		A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		A377E1461995C20B007F2F47 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		A377E1471995C20B007F2F47 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-iOS.xcconfig"; sourceTree = "<group>"; };
+		A377E1491995C20B007F2F47 /* Target-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-mac.xcconfig"; sourceTree = "<group>"; };
+		A377E14A1995C20B007F2F47 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TBCCoreExample-ios.xcconfig"; sourceTree = "<group>"; };
 		A38B6CB51A70B6AD008717C7 /* TBCPredicateBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCPredicateBlock.h; sourceTree = "<group>"; };
 		A38B6CB61A70B6AD008717C7 /* TBCPredicateBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCPredicateBlock.m; sourceTree = "<group>"; };
 		A3A6BE161987EE280073C4DB /* TBCCoreExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCCoreExampleViewController.h; sourceTree = "<group>"; };
 		A3A6BE171987EE280073C4DB /* TBCCoreExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCCoreExampleViewController.m; sourceTree = "<group>"; };
 		A3C9ABC91A688838002323ED /* TBCStopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCStopwatch.h; sourceTree = "<group>"; };
 		A3C9ABCA1A688838002323ED /* TBCStopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCStopwatch.m; sourceTree = "<group>"; };
-		A3DBD48E1987E68B00EDCAD2 /* libTBCCore-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTBCCore-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DBD48E1987E68B00EDCAD2 /* libTBCCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTBCCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD49F1987E68C00EDCAD2 /* TBCCoreTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreTests-mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TBCCoreExample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3DBD4BC1987EA6F00EDCAD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBCCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD4C21987EA6F00EDCAD2 /* TBCCoreExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreExample-Info.plist"; sourceTree = "<group>"; };
 		A3DBD4C61987EA6F00EDCAD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3DBD4C91987EA6F00EDCAD2 /* TBCCoreExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCCoreExampleAppDelegate.h; sourceTree = "<group>"; };
@@ -196,6 +284,10 @@
 		A3DBD4D21987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBCCoreExampleTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DBD4DA1987EA6F00EDCAD2 /* TBCCoreExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCCoreExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A3DBD4DE1987EA6F00EDCAD2 /* TBCCoreExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCCoreExampleTests.m; sourceTree = "<group>"; };
+		BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-mac.xcconfig"; sourceTree = "<group>"; };
+		BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Tests-iOS.xcconfig"; sourceTree = "<group>"; };
+		BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-iOS.xcconfig"; sourceTree = "<group>"; };
+		BFE5585F1B43B7AE00142C2F /* StaticLib-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "StaticLib-iOS.xcconfig"; sourceTree = "<group>"; };
 		D409CF851AB119FE009D214A /* NSMutableDictionary+TBCCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TBCCoreTests.m"; sourceTree = "<group>"; };
 		FD4936B91999BAB40079A886 /* TBCObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCObjC.h; sourceTree = "<group>"; };
 		FD4936BA1999BAB40079A886 /* TBCObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCObjC.m; sourceTree = "<group>"; };
@@ -218,11 +310,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C12543B1ADFF09400C0A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12931ADFB84A0087A693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F691987E2EB00C30AFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4B51987E9EC00EDCAD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +335,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3084F841987E2EB00C30AFA /* libTBCCore-iOS.a in Frameworks */,
-				A3084F7E1987E2EB00C30AFA /* XCTest.framework in Frameworks */,
-				A3084F7F1987E2EB00C30AFA /* Foundation.framework in Frameworks */,
+				BF79D9C01B44D19D0051932B /* libTBCCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +350,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4A01987E68C00EDCAD2 /* XCTest.framework in Frameworks */,
-				A3DBD4A41987E68C00EDCAD2 /* libTBCCore-mac.a in Frameworks */,
+				BF139C4D1B3A27CD006DBC3B /* TBCCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +358,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4BD1987EA6F00EDCAD2 /* CoreGraphics.framework in Frameworks */,
-				A3DBD4BF1987EA6F00EDCAD2 /* UIKit.framework in Frameworks */,
-				A3DBD4BB1987EA6F00EDCAD2 /* Foundation.framework in Frameworks */,
+				2C12540A1ADFEC7500C0A0B0 /* TBCCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +366,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DBD4D31987EA6F00EDCAD2 /* XCTest.framework in Frameworks */,
-				A3DBD4D51987EA6F00EDCAD2 /* UIKit.framework in Frameworks */,
-				A3DBD4D41987EA6F00EDCAD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +380,6 @@
 				A3DBD4C01987EA6F00EDCAD2 /* TBCCoreExample */,
 				A3DBD4D81987EA6F00EDCAD2 /* TBCCoreExampleTests */,
 				A37B8FE71991F392008878BE /* Configuration */,
-				A3084F6E1987E2EB00C30AFA /* Frameworks */,
 				A3084F6D1987E2EB00C30AFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -291,30 +387,22 @@
 		A3084F6D1987E2EB00C30AFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */,
+				A3084F6C1987E2EB00C30AFA /* libTBCCore.a */,
 				A3084F7C1987E2EB00C30AFA /* TBCCoreTests-iOS.xctest */,
-				A3DBD48E1987E68B00EDCAD2 /* libTBCCore-mac.a */,
+				A3DBD48E1987E68B00EDCAD2 /* libTBCCore.a */,
 				A3DBD49F1987E68C00EDCAD2 /* TBCCoreTests-mac.xctest */,
-				A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample-iOS.app */,
+				A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample.app */,
 				A3DBD4D21987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS.xctest */,
+				2CCA12971ADFB84A0087A693 /* TBCCore.framework */,
+				2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A3084F6E1987E2EB00C30AFA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A3084F6F1987E2EB00C30AFA /* Foundation.framework */,
-				A3084F7D1987E2EB00C30AFA /* XCTest.framework */,
-				A3DBD4BC1987EA6F00EDCAD2 /* CoreGraphics.framework */,
-				A3DBD4BE1987EA6F00EDCAD2 /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A3084F711987E2EB00C30AFA /* TBCCore */ = {
 			isa = PBXGroup;
 			children = (
+				2CCA129A1ADFB84B0087A693 /* Info.plist */,
 				A3084F741987E2EB00C30AFA /* TBCCore.h */,
 				FDA926861ADE177F00C1BEE0 /* TBCCoreTypes.h */,
 				A370017F1A2D38FA0091B978 /* NSArray+TBCCore.h */,
@@ -376,37 +464,22 @@
 			path = TBCCoreTests;
 			sourceTree = "<group>";
 		};
-		A377E0E7199312F8007F2F47 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				A377E11F199457A2007F2F47 /* TBCCoreExample-iOS.eggfile */,
-				A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */,
-			);
-			name = lib;
-			path = TBCCoreExampleTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		A377E1351994F0ED007F2F47 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A377E1391994F0F2007F2F47 /* libTBCCoreExample-iOS-eggs.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A37B8FE71991F392008878BE /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				A377E14A1995C20B007F2F47 /* Warnings.xcconfig */,
+				A377E1471995C20B007F2F47 /* Project.xcconfig */,
 				A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */,
 				A377E1461995C20B007F2F47 /* Project-Release.xcconfig */,
-				A377E1471995C20B007F2F47 /* Project.xcconfig */,
 				A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */,
-				A377E1491995C20B007F2F47 /* Target-mac.xcconfig */,
-				A377E14A1995C20B007F2F47 /* Warnings.xcconfig */,
+				BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */,
+				BFE5585F1B43B7AE00142C2F /* StaticLib-iOS.xcconfig */,
+				BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */,
 				A377E14B1995C21A007F2F47 /* TBCCoreExample-ios.xcconfig */,
+				A377E1491995C20B007F2F47 /* Target-mac.xcconfig */,
+				BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */,
 			);
-			name = Configuration;
-			path = TBCCoreExampleTests;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		A3DBD4C01987EA6F00EDCAD2 /* TBCCoreExample */ = {
@@ -419,7 +492,6 @@
 				A3DBD4CC1987EA6F00EDCAD2 /* Images.xcassets */,
 				A3DBD4C21987EA6F00EDCAD2 /* TBCCoreExample-Info.plist */,
 				A3DBD4C61987EA6F00EDCAD2 /* main.m */,
-				A377E0E7199312F8007F2F47 /* lib */,
 			);
 			path = TBCCoreExample;
 			sourceTree = "<group>";
@@ -436,32 +508,132 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2C12543C1ADFF09400C0A0B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF978571B29575B00A11FDA /* NSDictionary+TBCCore.h in Headers */,
+				2C1254941ADFF2ED00C0A0B0 /* TBCAlertView.h in Headers */,
+				2C1254891ADFF2ED00C0A0B0 /* TBCCore.h in Headers */,
+				2C12548D1ADFF2ED00C0A0B0 /* NSMutableDictionary+TBCCore.h in Headers */,
+				2C1254971ADFF2ED00C0A0B0 /* TBCCoreDefines.h in Headers */,
+				2C1254AC1ADFF2ED00C0A0B0 /* TBCTypeSafety.h in Headers */,
+				2C12549C1ADFF2ED00C0A0B0 /* TBCDelayedDispatcher.h in Headers */,
+				2C1254981ADFF2ED00C0A0B0 /* TBCCurrencyFormatter.h in Headers */,
+				2C12548A1ADFF2ED00C0A0B0 /* TBCCoreTypes.h in Headers */,
+				2C1254AA1ADFF2ED00C0A0B0 /* TBCTimer.h in Headers */,
+				BFF9784F1B29552B00A11FDA /* NSSet+TBCCore.h in Headers */,
+				2C1254A61ADFF2ED00C0A0B0 /* TBCPredicateBlock.h in Headers */,
+				2C1254A21ADFF2ED00C0A0B0 /* TBCObjC.h in Headers */,
+				2C12549E1ADFF2ED00C0A0B0 /* TBCDispatch.h in Headers */,
+				2C12548F1ADFF2ED00C0A0B0 /* NSMapTable+TBCCore.h in Headers */,
+				2C12549A1ADFF2ED00C0A0B0 /* TBCDebugging.h in Headers */,
+				2C12548B1ADFF2ED00C0A0B0 /* NSArray+TBCCore.h in Headers */,
+				2C1254911ADFF2ED00C0A0B0 /* NSString+TBCCore.h in Headers */,
+				2C1254A41ADFF2ED00C0A0B0 /* TBCPersistenceURLProvider.h in Headers */,
+				2C1254A01ADFF2ED00C0A0B0 /* TBCStopwatch.h in Headers */,
+				2C1254A81ADFF2ED00C0A0B0 /* TBCTimeInterval.h in Headers */,
+				2C1254931ADFF2ED00C0A0B0 /* TBCActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12941ADFB84A0087A693 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB6839D1ADFBF9600CC9BD2 /* TBCCore.h in Headers */,
+				2CCA12BC1ADFB8D00087A693 /* TBCAlertView.h in Headers */,
+				2CCA12B41ADFB8D00087A693 /* NSMutableDictionary+TBCCore.h in Headers */,
+				2CCA12BF1ADFB8D00087A693 /* TBCCoreDefines.h in Headers */,
+				2CCA12D41ADFB8D00087A693 /* TBCTypeSafety.h in Headers */,
+				2CCA12C41ADFB8D00087A693 /* TBCDelayedDispatcher.h in Headers */,
+				2CCA12C01ADFB8D00087A693 /* TBCCurrencyFormatter.h in Headers */,
+				2CCA12B11ADFB8D00087A693 /* TBCCoreTypes.h in Headers */,
+				2CCA12D21ADFB8D00087A693 /* TBCTimer.h in Headers */,
+				2CCA12CE1ADFB8D00087A693 /* TBCPredicateBlock.h in Headers */,
+				2CCA12CA1ADFB8D00087A693 /* TBCObjC.h in Headers */,
+				2CCA12C61ADFB8D00087A693 /* TBCDispatch.h in Headers */,
+				2CCA12B61ADFB8D00087A693 /* NSMapTable+TBCCore.h in Headers */,
+				2CCA12C21ADFB8D00087A693 /* TBCDebugging.h in Headers */,
+				2CCA12B21ADFB8D00087A693 /* NSArray+TBCCore.h in Headers */,
+				2CCA12B81ADFB8D00087A693 /* NSString+TBCCore.h in Headers */,
+				2CCA12CC1ADFB8D00087A693 /* TBCPersistenceURLProvider.h in Headers */,
+				2CCA12C81ADFB8D00087A693 /* TBCStopwatch.h in Headers */,
+				2CCA12D01ADFB8D00087A693 /* TBCTimeInterval.h in Headers */,
+				2CCA12BA1ADFB8D00087A693 /* TBCActionSheet.h in Headers */,
+				BFF9784B1B29541300A11FDA /* NSDictionary+TBCCore.h in Headers */,
+				BFF9784D1B29550900A11FDA /* NSSet+TBCCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3DBD48C1987E68B00EDCAD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A377E0D81992529D007F2F47 /* TBCTimeInterval.h in Headers */,
-				A377E0DC199253ED007F2F47 /* TBCAlertView.h in Headers */,
-				A30AF179199B53F000E2E356 /* TBCDispatch.h in Headers */,
-				A3C9ABCB1A688838002323ED /* TBCStopwatch.h in Headers */,
-				A30AF174199B195400E2E356 /* TBCTimer.h in Headers */,
-				A31013F519E60F7D00092156 /* TBCCurrencyFormatter.h in Headers */,
-				FD4936BB1999BAB40079A886 /* TBCObjC.h in Headers */,
-				FD4936CB1999D4460079A886 /* TBCDelayedDispatcher.h in Headers */,
-				FDBDE17A19EB4E3C009A2236 /* TBCDebugging.h in Headers */,
-				A3017FCE1A84663D0055A22A /* NSMutableDictionary+TBCCore.h in Headers */,
-				FD56C8B619C7FD04008E9B11 /* TBCPersistenceURLProvider.h in Headers */,
-				A32272EA1ADF873A00CBF58F /* NSDictionary+TBCCore.h in Headers */,
-				FD4A893519B548E200D070E2 /* TBCActionSheet.h in Headers */,
-				A38B6CB71A70B6AD008717C7 /* TBCPredicateBlock.h in Headers */,
-				A377E0D019925129007F2F47 /* TBCTypeSafety.h in Headers */,
-				A34F8DE01AF09FCF006A46C5 /* NSSet+TBCCore.h in Headers */,
+				BFF978561B29575A00A11FDA /* NSDictionary+TBCCore.h in Headers */,
+				2C12546F1ADFF2DF00C0A0B0 /* TBCAlertView.h in Headers */,
+				2C1254631ADFF2DF00C0A0B0 /* TBCCore.h in Headers */,
+				2C1254671ADFF2DF00C0A0B0 /* NSMutableDictionary+TBCCore.h in Headers */,
+				2C1254721ADFF2DF00C0A0B0 /* TBCCoreDefines.h in Headers */,
+				2C1254871ADFF2DF00C0A0B0 /* TBCTypeSafety.h in Headers */,
+				2C1254771ADFF2DF00C0A0B0 /* TBCDelayedDispatcher.h in Headers */,
+				2C1254731ADFF2DF00C0A0B0 /* TBCCurrencyFormatter.h in Headers */,
+				2C1254641ADFF2DF00C0A0B0 /* TBCCoreTypes.h in Headers */,
+				2C1254851ADFF2DF00C0A0B0 /* TBCTimer.h in Headers */,
+				BFF9784E1B29552A00A11FDA /* NSSet+TBCCore.h in Headers */,
+				2C1254811ADFF2DF00C0A0B0 /* TBCPredicateBlock.h in Headers */,
+				2C12547D1ADFF2DF00C0A0B0 /* TBCObjC.h in Headers */,
+				2C1254791ADFF2DF00C0A0B0 /* TBCDispatch.h in Headers */,
+				2C1254691ADFF2DF00C0A0B0 /* NSMapTable+TBCCore.h in Headers */,
+				2C1254751ADFF2DF00C0A0B0 /* TBCDebugging.h in Headers */,
+				2C1254651ADFF2DF00C0A0B0 /* NSArray+TBCCore.h in Headers */,
+				2C12546B1ADFF2DF00C0A0B0 /* NSString+TBCCore.h in Headers */,
+				2C12547F1ADFF2DF00C0A0B0 /* TBCPersistenceURLProvider.h in Headers */,
+				2C12547B1ADFF2DF00C0A0B0 /* TBCStopwatch.h in Headers */,
+				2C1254831ADFF2DF00C0A0B0 /* TBCTimeInterval.h in Headers */,
+				2C12546D1ADFF2DF00C0A0B0 /* TBCActionSheet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1254561ADFF09400C0A0B0 /* Build configuration list for PBXNativeTarget "TBCCore-mac.framework" */;
+			buildPhases = (
+				2C12543A1ADFF09400C0A0B0 /* Sources */,
+				2C12543B1ADFF09400C0A0B0 /* Frameworks */,
+				2C12543C1ADFF09400C0A0B0 /* Headers */,
+				2C12543D1ADFF09400C0A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TBCCore-mac.framework";
+			productName = TBCCore;
+			productReference = 2C12543F1ADFF09400C0A0B0 /* TBCCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCA12AF1ADFB84B0087A693 /* Build configuration list for PBXNativeTarget "TBCCore-iOS.framework" */;
+			buildPhases = (
+				2CCA12921ADFB84A0087A693 /* Sources */,
+				2CCA12931ADFB84A0087A693 /* Frameworks */,
+				2CCA12941ADFB84A0087A693 /* Headers */,
+				2CCA12951ADFB84A0087A693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TBCCore-iOS.framework";
+			productName = TBCCore;
+			productReference = 2CCA12971ADFB84A0087A693 /* TBCCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3084F8F1987E2EB00C30AFA /* Build configuration list for PBXNativeTarget "TBCCore-iOS" */;
@@ -476,7 +648,7 @@
 			);
 			name = "TBCCore-iOS";
 			productName = TBCCore;
-			productReference = A3084F6C1987E2EB00C30AFA /* libTBCCore-iOS.a */;
+			productReference = A3084F6C1987E2EB00C30AFA /* libTBCCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A3084F7B1987E2EB00C30AFA /* TBCCoreTests-iOS */ = {
@@ -490,7 +662,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3084F831987E2EB00C30AFA /* PBXTargetDependency */,
+				BF79D9BF1B44D1980051932B /* PBXTargetDependency */,
 			);
 			name = "TBCCoreTests-iOS";
 			productName = TBCCoreTests;
@@ -511,7 +683,7 @@
 			);
 			name = "TBCCore-mac";
 			productName = "TBCCore-mac";
-			productReference = A3DBD48E1987E68B00EDCAD2 /* libTBCCore-mac.a */;
+			productReference = A3DBD48E1987E68B00EDCAD2 /* libTBCCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A3DBD49E1987E68C00EDCAD2 /* TBCCoreTests-mac */ = {
@@ -525,7 +697,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3DBD4A31987E68C00EDCAD2 /* PBXTargetDependency */,
+				BF139C4C1B3A27C9006DBC3B /* PBXTargetDependency */,
 			);
 			name = "TBCCoreTests-mac";
 			productName = "TBCCore-macTests";
@@ -539,14 +711,16 @@
 				A3DBD4B61987EA6F00EDCAD2 /* Sources */,
 				A3DBD4B71987EA6F00EDCAD2 /* Frameworks */,
 				A3DBD4B81987EA6F00EDCAD2 /* Resources */,
+				BF6D8DB21B33895D0015E8D6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C12540D1ADFEC7500C0A0B0 /* PBXTargetDependency */,
 			);
 			name = "TBCCoreExample-iOS";
 			productName = "TBCCore Example";
-			productReference = A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample-iOS.app */;
+			productReference = A3DBD4BA1987EA6F00EDCAD2 /* TBCCoreExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A3DBD4D11987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS */ = {
@@ -574,9 +748,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TBC;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Tabcorp Pty. Ltd.";
 				TargetAttributes = {
+					2C12543E1ADFF09400C0A0B0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2CCA12961ADFB84A0087A693 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					A3084F7B1987E2EB00C30AFA = {
 						TestTargetID = A3DBD4B91987EA6F00EDCAD2;
 					};
@@ -598,17 +778,13 @@
 			mainGroup = A3084F631987E2EB00C30AFA;
 			productRefGroup = A3084F6D1987E2EB00C30AFA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A377E1351994F0ED007F2F47 /* Products */;
-					ProjectRef = A377E0E819931308007F2F47 /* TBCCoreExample-iOS-eggs.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */,
-				A3DBD48D1987E68B00EDCAD2 /* TBCCore-mac */,
 				A3084F7B1987E2EB00C30AFA /* TBCCoreTests-iOS */,
+				2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */,
+				A3DBD48D1987E68B00EDCAD2 /* TBCCore-mac */,
+				2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */,
 				A3DBD49E1987E68C00EDCAD2 /* TBCCoreTests-mac */,
 				A3DBD4B91987EA6F00EDCAD2 /* TBCCoreExample-iOS */,
 				A3DBD4D11987EA6F00EDCAD2 /* TBCCoreExampleTests-iOS */,
@@ -616,17 +792,21 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		A377E1391994F0F2007F2F47 /* libTBCCoreExample-iOS-eggs.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libTBCCoreExample-iOS-eggs.a";
-			remoteRef = A377E1381994F0F2007F2F47 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
+		2C12543D1ADFF09400C0A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12951ADFB84A0087A693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F7A1987E2EB00C30AFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -659,6 +839,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C12543A1ADFF09400C0A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1254901ADFF2ED00C0A0B0 /* NSMapTable+TBCCore.m in Sources */,
+				2C1254961ADFF2ED00C0A0B0 /* TBCAlertView-mac.m in Sources */,
+				2C1254AD1ADFF2ED00C0A0B0 /* TBCTypeSafety.m in Sources */,
+				2C12549D1ADFF2ED00C0A0B0 /* TBCDelayedDispatcher.m in Sources */,
+				2C12548E1ADFF2ED00C0A0B0 /* NSMutableDictionary+TBCCore.m in Sources */,
+				BFF978511B29553900A11FDA /* NSSet+TBCCore.m in Sources */,
+				2C1254A51ADFF2ED00C0A0B0 /* TBCPersistenceURLProvider.m in Sources */,
+				BFF978591B29576A00A11FDA /* NSDictionary+TBCCore.m in Sources */,
+				2C1254921ADFF2ED00C0A0B0 /* NSString+TBCCore.m in Sources */,
+				2C12549F1ADFF2ED00C0A0B0 /* TBCDispatch.m in Sources */,
+				2C1254A71ADFF2ED00C0A0B0 /* TBCPredicateBlock.m in Sources */,
+				2C1254A31ADFF2ED00C0A0B0 /* TBCObjC.m in Sources */,
+				2C1254A11ADFF2ED00C0A0B0 /* TBCStopwatch.m in Sources */,
+				2C1254991ADFF2ED00C0A0B0 /* TBCCurrencyFormatter.m in Sources */,
+				2C12549B1ADFF2ED00C0A0B0 /* TBCDebugging.m in Sources */,
+				2C1254A91ADFF2ED00C0A0B0 /* TBCTimeInterval.m in Sources */,
+				2C12548C1ADFF2ED00C0A0B0 /* NSArray+TBCCore.m in Sources */,
+				2C1254AB1ADFF2ED00C0A0B0 /* TBCTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA12921ADFB84A0087A693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA12B71ADFB8D00087A693 /* NSMapTable+TBCCore.m in Sources */,
+				2CCA12C11ADFB8D00087A693 /* TBCCurrencyFormatter.m in Sources */,
+				2CCA12BB1ADFB8D00087A693 /* TBCActionSheet-ios.m in Sources */,
+				2CCA12B51ADFB8D00087A693 /* NSMutableDictionary+TBCCore.m in Sources */,
+				2CCA12C71ADFB8D00087A693 /* TBCDispatch.m in Sources */,
+				2CCA12CF1ADFB8D00087A693 /* TBCPredicateBlock.m in Sources */,
+				2CCA12CD1ADFB8D00087A693 /* TBCPersistenceURLProvider.m in Sources */,
+				BFF9784A1B2953EC00A11FDA /* NSDictionary+TBCCore.m in Sources */,
+				2CCA12C31ADFB8D00087A693 /* TBCDebugging.m in Sources */,
+				2CCA12D11ADFB8D00087A693 /* TBCTimeInterval.m in Sources */,
+				2CCA12BD1ADFB8D00087A693 /* TBCAlertView-ios.m in Sources */,
+				2CCA12CB1ADFB8D00087A693 /* TBCObjC.m in Sources */,
+				2CCA12C51ADFB8D00087A693 /* TBCDelayedDispatcher.m in Sources */,
+				2CCA12D51ADFB8D00087A693 /* TBCTypeSafety.m in Sources */,
+				2CCA12B91ADFB8D00087A693 /* NSString+TBCCore.m in Sources */,
+				2CCA12B31ADFB8D00087A693 /* NSArray+TBCCore.m in Sources */,
+				2CCA12C91ADFB8D00087A693 /* TBCStopwatch.m in Sources */,
+				2CCA12D31ADFB8D00087A693 /* TBCTimer.m in Sources */,
+				BFF9784C1B29550300A11FDA /* NSSet+TBCCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3084F681987E2EB00C30AFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,22 +934,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A377E0D219925129007F2F47 /* TBCTypeSafety.m in Sources */,
-				A377E0DA1992529D007F2F47 /* TBCTimeInterval.m in Sources */,
-				FDBDE17C19EB4E3C009A2236 /* TBCDebugging.m in Sources */,
-				FD56C8B819C7FD04008E9B11 /* TBCPersistenceURLProvider.m in Sources */,
-				A34F8DE21AF09FCF006A46C5 /* NSSet+TBCCore.m in Sources */,
-				A3C9ABCD1A688838002323ED /* TBCStopwatch.m in Sources */,
-				FD4936CD1999D4460079A886 /* TBCDelayedDispatcher.m in Sources */,
-				A3017FD01A84663D0055A22A /* NSMutableDictionary+TBCCore.m in Sources */,
-				A32272EC1ADF873A00CBF58F /* NSDictionary+TBCCore.m in Sources */,
-				A38B6CB91A70B6AD008717C7 /* TBCPredicateBlock.m in Sources */,
-				A30AF176199B195400E2E356 /* TBCTimer.m in Sources */,
-				A377E0E2199253F2007F2F47 /* TBCAlertView-mac.m in Sources */,
-				A31013F719E60F7D00092156 /* TBCCurrencyFormatter.m in Sources */,
-				A381B3511A2D435D002BCE00 /* NSArray+TBCCore.m in Sources */,
-				FD4936BD1999BAB40079A886 /* TBCObjC.m in Sources */,
-				A30AF17B199B53F000E2E356 /* TBCDispatch.m in Sources */,
+				2C12546A1ADFF2DF00C0A0B0 /* NSMapTable+TBCCore.m in Sources */,
+				2C1254741ADFF2DF00C0A0B0 /* TBCCurrencyFormatter.m in Sources */,
+				2C1254711ADFF2DF00C0A0B0 /* TBCAlertView-mac.m in Sources */,
+				2C1254681ADFF2DF00C0A0B0 /* NSMutableDictionary+TBCCore.m in Sources */,
+				2C12547A1ADFF2DF00C0A0B0 /* TBCDispatch.m in Sources */,
+				BFF978501B29553800A11FDA /* NSSet+TBCCore.m in Sources */,
+				2C1254821ADFF2DF00C0A0B0 /* TBCPredicateBlock.m in Sources */,
+				BFF978581B29576800A11FDA /* NSDictionary+TBCCore.m in Sources */,
+				2C1254801ADFF2DF00C0A0B0 /* TBCPersistenceURLProvider.m in Sources */,
+				2C1254761ADFF2DF00C0A0B0 /* TBCDebugging.m in Sources */,
+				2C1254841ADFF2DF00C0A0B0 /* TBCTimeInterval.m in Sources */,
+				2C12547E1ADFF2DF00C0A0B0 /* TBCObjC.m in Sources */,
+				2C1254781ADFF2DF00C0A0B0 /* TBCDelayedDispatcher.m in Sources */,
+				2C1254881ADFF2DF00C0A0B0 /* TBCTypeSafety.m in Sources */,
+				2C12546C1ADFF2DF00C0A0B0 /* NSString+TBCCore.m in Sources */,
+				2C1254661ADFF2DF00C0A0B0 /* NSArray+TBCCore.m in Sources */,
+				2C12547C1ADFF2DF00C0A0B0 /* TBCStopwatch.m in Sources */,
+				2C1254861ADFF2DF00C0A0B0 /* TBCTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,20 +990,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3084F831987E2EB00C30AFA /* PBXTargetDependency */ = {
+		2C12540D1ADFEC7500C0A0B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */;
-			targetProxy = A3084F821987E2EB00C30AFA /* PBXContainerItemProxy */;
-		};
-		A3DBD4A31987E68C00EDCAD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A3DBD48D1987E68B00EDCAD2 /* TBCCore-mac */;
-			targetProxy = A3DBD4A21987E68C00EDCAD2 /* PBXContainerItemProxy */;
+			target = 2CCA12961ADFB84A0087A693 /* TBCCore-iOS.framework */;
+			targetProxy = 2C12540C1ADFEC7500C0A0B0 /* PBXContainerItemProxy */;
 		};
 		A3DBD4D71987EA6F00EDCAD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3DBD4B91987EA6F00EDCAD2 /* TBCCoreExample-iOS */;
 			targetProxy = A3DBD4D61987EA6F00EDCAD2 /* PBXContainerItemProxy */;
+		};
+		BF139C4C1B3A27C9006DBC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C12543E1ADFF09400C0A0B0 /* TBCCore-mac.framework */;
+			targetProxy = BF139C4B1B3A27C9006DBC3B /* PBXContainerItemProxy */;
+		};
+		BF79D9BF1B44D1980051932B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3084F6B1987E2EB00C30AFA /* TBCCore-iOS */;
+			targetProxy = BF79D9BE1B44D1980051932B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -779,10 +1017,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E1451995C20B007F2F47 /* Project-Debug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
 			};
 			name = Debug;
 		};
@@ -790,29 +1024,26 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E1461995C20B007F2F47 /* Project-Release.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
-				);
 			};
 			name = Release;
 		};
 		A3084F901987E2EB00C30AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */;
+			baseConfigurationReference = BFE5585F1B43B7AE00142C2F /* StaticLib-iOS.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		A3084F911987E2EB00C30AFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A377E1481995C20B007F2F47 /* Target-iOS.xcconfig */;
+			baseConfigurationReference = BFE5585F1B43B7AE00142C2F /* StaticLib-iOS.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		A3084F931987E2EB00C30AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -824,7 +1055,6 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TBCCoreTests/TBCCoreTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -834,6 +1064,7 @@
 		};
 		A3084F941987E2EB00C30AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF74C52D1B3A1DC10040AB9D /* Tests-iOS.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -841,7 +1072,6 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "TBCCoreTests/TBCCoreTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -853,6 +1083,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E1491995C20B007F2F47 /* Target-mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
 		};
@@ -860,11 +1091,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A377E1491995C20B007F2F47 /* Target-mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Release;
 		};
 		A3DBD4B11987E68C00EDCAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -887,6 +1120,7 @@
 		};
 		A3DBD4B21987E68C00EDCAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -956,9 +1190,55 @@
 			};
 			name = Release;
 		};
+		BFBBEA3A1B32926E007A86E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BFBBEA3B1B32926E007A86E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBBEA391B32913A007A86E1 /* Framework-iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		BFBBEA3C1B32926E007A86E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BFBBEA3D1B32926E007A86E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF33F79A1B40F66E00FF03F6 /* Framework-mac.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C1254561ADFF09400C0A0B0 /* Build configuration list for PBXNativeTarget "TBCCore-mac.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBBEA3C1B32926E007A86E1 /* Debug */,
+				BFBBEA3D1B32926E007A86E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCA12AF1ADFB84B0087A693 /* Build configuration list for PBXNativeTarget "TBCCore-iOS.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBBEA3A1B32926E007A86E1 /* Debug */,
+				BFBBEA3B1B32926E007A86E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A3084F671987E2EB00C30AFA /* Build configuration list for PBXProject "TBCCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

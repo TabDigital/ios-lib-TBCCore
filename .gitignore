@@ -2,4 +2,4 @@
 xcuserdata
 build/
 *.xccheckout
-*.eggs
+Carthage

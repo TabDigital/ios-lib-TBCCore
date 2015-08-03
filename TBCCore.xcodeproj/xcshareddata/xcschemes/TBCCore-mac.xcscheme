@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3DBD48D1987E68B00EDCAD2"
-               BuildableName = "libTBCCore-mac.a"
+               BuildableName = "libTBCCore.a"
                BlueprintName = "TBCCore-mac"
                ReferencedContainer = "container:TBCCore.xcodeproj">
             </BuildableReference>
@@ -28,17 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3DBD49E1987E68C00EDCAD2"
-               BuildableName = "TBCCoreTests-mac.xctest"
-               BlueprintName = "TBCCoreTests-mac"
-               ReferencedContainer = "container:TBCCore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A3DBD48D1987E68B00EDCAD2"
+            BuildableName = "libTBCCore.a"
+            BlueprintName = "TBCCore-mac"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A3DBD48D1987E68B00EDCAD2"
+            BuildableName = "libTBCCore.a"
+            BlueprintName = "TBCCore-mac"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A3DBD48D1987E68B00EDCAD2"
+            BuildableName = "libTBCCore.a"
+            BlueprintName = "TBCCore-mac"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3084F6B1987E2EB00C30AFA"
-               BuildableName = "libTBCCore-iOS.a"
+               BuildableName = "libTBCCore.a"
                BlueprintName = "TBCCore-iOS"
                ReferencedContainer = "container:TBCCore.xcodeproj">
             </BuildableReference>
@@ -39,6 +39,15 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A3084F6B1987E2EB00C30AFA"
+            BuildableName = "libTBCCore.a"
+            BlueprintName = "TBCCore-iOS"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = ""
@@ -50,6 +59,15 @@
       debugDocumentVersioning = "YES"
       debugXPCServices = "NO"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A3084F6B1987E2EB00C30AFA"
+            BuildableName = "libTBCCore.a"
+            BlueprintName = "TBCCore-iOS"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -59,6 +77,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A3084F6B1987E2EB00C30AFA"
+            BuildableName = "libTBCCore.a"
+            BlueprintName = "TBCCore-iOS"
+            ReferencedContainer = "container:TBCCore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,18 +1,15 @@
 language: objective-c
+osx_image: beta-xcode6.3
+
 branches:
   only:
     - master
 
-env:
-  - XCODE_SCHEME="TBCCore-iOS" XCODE_SDK=iphonesimulator
-  - XCODE_SCHEME="TBCCoreExample-iOS" XCODE_SDK=iphonesimulator
-  - XCODE_SCHEME="TBCCore-mac" XCODE_SDK=macosx10.9
-
 before_install:
-  - brew update && brew upgrade xctool
-  - gem sources -a http://208.52.189.214/gems/
-  - gem install egg
-  - egg "${XCODE_SCHEME}.eggfile"
+  - gem install xcpretty
+
+before_script:
+  - set -o pipefail
 
 script:
-  - xctool test -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK"
+  - xcodebuild build test -project TBCCore.xcodeproj -scheme TBCCore-mac.framework -sdk macosx | xcpretty

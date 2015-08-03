@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-               BuildableName = "TBCCoreExample.app"
-               BlueprintName = "TBCCoreExample-iOS"
+               BlueprintIdentifier = "2CCA12961ADFB84A0087A693"
+               BuildableName = "TBCCore.framework"
+               BlueprintName = "TBCCore-iOS.framework"
                ReferencedContainer = "container:TBCCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3DBD4D11987EA6F00EDCAD2"
-               BuildableName = "TBCCoreExampleTests-iOS.xctest"
-               BlueprintName = "TBCCoreExampleTests-iOS"
-               ReferencedContainer = "container:TBCCore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCoreExample.app"
-            BlueprintName = "TBCCoreExample-iOS"
+            BlueprintIdentifier = "2CCA12961ADFB84A0087A693"
+            BuildableName = "TBCCore.framework"
+            BlueprintName = "TBCCore-iOS.framework"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -58,16 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCoreExample.app"
-            BlueprintName = "TBCCoreExample-iOS"
+            BlueprintIdentifier = "2CCA12961ADFB84A0087A693"
+            BuildableName = "TBCCore.framework"
+            BlueprintName = "TBCCore-iOS.framework"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -77,16 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A3DBD4B91987EA6F00EDCAD2"
-            BuildableName = "TBCCoreExample.app"
-            BlueprintName = "TBCCoreExample-iOS"
+            BlueprintIdentifier = "2CCA12961ADFB84A0087A693"
+            BuildableName = "TBCCore.framework"
+            BlueprintName = "TBCCore-iOS.framework"
             ReferencedContainer = "container:TBCCore.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

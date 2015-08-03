@@ -29,6 +29,13 @@
     return alertView;
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wall"
+- (instancetype)init {
+    [self doesNotRecognizeSelector:_cmd];
+    return nil;
+}
+#pragma clang diagnostic pop
 - (id)initWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle cancelButtonHandler:(dispatch_block_t)cancelButtonHandler {
     self = [super init];
     if (self) {
