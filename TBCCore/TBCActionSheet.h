@@ -56,7 +56,9 @@
 /**
  Presents the TBCActionSheet
  */
+#if !defined(TARGET_OS_TV) || TARGET_OS_TV == 0
 - (void)showFromToolbar:(UIToolbar *)view;
+#endif
 - (void)showFromTabBar:(UITabBar *)view;
 - (void)showFromBarButtonItem:(UIBarButtonItem *)item animated:(BOOL)animated;
 - (void)showFromRect:(CGRect)rect inView:(UIView *)view animated:(BOOL)animated;
