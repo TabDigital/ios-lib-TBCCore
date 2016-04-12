@@ -64,6 +64,16 @@ id __nullable _TBCEnsureProtocol(Protocol * const protocol, id<NSObject> const _
 #define TBCEnsureProtocol(protocolName, object) ((id<protocolName>)_TBCEnsureProtocol(@protocol(protocolName), (object)))
 
 /**
+ Assert that a variable is not nil
+
+ @param object The object to test
+
+ @return `object`, asserting that it is not `nil`
+ */
+id __nullable _TBCAssertNotNil(id<NSObject> const __nullable object, char const * const expr);
+#define TBCAssertNotNil(...) ((__typeof__(__VA_ARGS__))_TBCAssertNotNil((id)(__VA_ARGS__), #__VA_ARGS__))
+
+/**
  Assert an object is an instance of a given class or an instance of any class that inherits from that class
  
  @param klass The class to test against

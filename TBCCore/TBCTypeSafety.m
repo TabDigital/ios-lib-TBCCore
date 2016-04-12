@@ -24,6 +24,14 @@ id _TBCEnsureProtocol(Protocol * const protocol, id<NSObject> const object) {
     return [object conformsToProtocol:protocol] ? object : nil;
 }
 
+id _TBCAssertNotNil(id<NSObject> const object, char const * const expr) {
+    if (object) {
+        return object;
+    }
+    NSCAssert(false, @"Type assertion failed: %s is nil", expr);
+    return object;
+}
+
 id _TBCAssertClass(const Class klass, id<NSObject> const object, char const * const expr) {
     if ([object isKindOfClass:klass]) {
         return object;
