@@ -1,31 +1,54 @@
 steps:
 
-  - name: "mac"
-    command: scripts/cibuild
+  - name: "mac - Analyze"
+    command: .ci-scripts/analyze
     agents:
       os: macos
       queue: mobile
-      xcode: 7.3
+      xcode: 8
     env:
       XCODE_SCHEME: TBCCore-mac
       XCODE_SDK: macosx
 
-  - name: "iOS"
-    command: scripts/cibuild
+  - name: "mac - Test"
+    command: .ci-scripts/test
     agents:
       os: macos
       queue: mobile
-      xcode: 7.3
+      xcode: 8
+    env:
+      XCODE_SCHEME: TBCCore-mac
+      XCODE_SDK: macosx
+
+  - name: "iOS - Analyze"
+    command: .ci-scripts/analyze
+    agents:
+      os: macos
+      queue: mobile
+      xcode: 8
     env:
       XCODE_SCHEME: TBCCore-iOS
       XCODE_SDK: iphonesimulator
+      XCODE_DESTINATION: "platform=iOS Simulator,name=iPhone 6"
 
-  - name: "iOS Example"
-    command: scripts/cibuild
+
+  - name: "iOS - Test"
+    command: .ci-scripts/test
     agents:
       os: macos
       queue: mobile
-      xcode: 7.3
+      xcode: 8
+    env:
+      XCODE_SCHEME: TBCCore-iOS
+      XCODE_SDK: iphonesimulator
+      XCODE_DESTINATION: "platform=iOS Simulator,name=iPhone 6"
+
+  - name: "iOS Example"
+    command: .ci-scripts/build
+    agents:
+      os: macos
+      queue: mobile
+      xcode: 8
     env:
       XCODE_SCHEME: TBCCoreExample-iOS
       XCODE_SDK: iphonesimulator

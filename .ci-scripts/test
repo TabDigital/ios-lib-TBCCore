@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -euxo pipefail
+
+./.ci-scripts/bootstrap
+
+if [ -z "${XCODE_DESTINATION-}" ]; then
+    xcodebuild test -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK" | xcpretty
+else
+    xcodebuild test -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK" -destination "$XCODE_DESTINATION" | xcpretty
+fi

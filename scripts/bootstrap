@@ -1,4 +1,0 @@
-#!/bin/bash -e
-git submodule update --init --recursive
-egg
-which xctool || brew install xctool

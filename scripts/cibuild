@@ -1,9 +1,0 @@
-#!/bin/bash -e
-
-# Assert required variables are set
-(: "${XCODE_SCHEME?}")
-(: "${XCODE_SDK?}")
-
-./scripts/bootstrap
-xctool analyze -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK"
-xctool test -project TBCCore.xcodeproj -scheme "$XCODE_SCHEME" -sdk "$XCODE_SDK"
