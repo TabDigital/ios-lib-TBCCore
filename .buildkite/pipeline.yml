@@ -1,6 +1,6 @@
 steps:
 
-  - name: "mac - Analyze"
+  - name: "mac - Xcode7 - Analyze"
     command: scripts/ci-staticlib-analyze
     agents:
       os: macos
@@ -10,7 +10,7 @@ steps:
       XCODE_SCHEME: TBCCore-mac
       XCODE_SDK: macosx
 
-  - name: "mac - Test"
+  - name: "mac - Xcode7 - Test"
     command: scripts/ci-staticlib-test
     agents:
       os: macos
@@ -20,7 +20,27 @@ steps:
       XCODE_SCHEME: TBCCore-mac
       XCODE_SDK: macosx
 
-  - name: "iOS - Analyze"
+  - name: "mac - Xcode8 - Analyze"
+    command: scripts/ci-staticlib-analyze
+    agents:
+      os: macos
+      queue: mobile
+      xcode: 8
+    env:
+      XCODE_SCHEME: TBCCore-mac
+      XCODE_SDK: macosx
+
+  - name: "mac - Xcode8 - Test"
+    command: scripts/ci-staticlib-test
+    agents:
+      os: macos
+      queue: mobile
+      xcode: 8
+    env:
+      XCODE_SCHEME: TBCCore-mac
+      XCODE_SDK: macosx
+
+  - name: "iOS - Xcode7 - Analyze"
     command: scripts/ci-staticlib-analyze
     agents:
       os: macos
@@ -31,12 +51,35 @@ steps:
       XCODE_SDK: iphonesimulator
       XCODE_DESTINATION: "platform=iOS Simulator,name=iPhone 6"
 
-  - name: "iOS - Test"
+  - name: "iOS - Xcode7 - Test"
     command: scripts/ci-staticlib-test
     agents:
       os: macos
       queue: mobile
       xcode: 7.3
+    env:
+      XCODE_SCHEME: TBCCore-iOS
+      XCODE_SDK: iphonesimulator
+      XCODE_DESTINATION: "platform=iOS Simulator,name=iPhone 6"
+
+  - name: "iOS - Xcode8 - Analyze"
+    command: scripts/ci-staticlib-analyze
+    agents:
+      os: macos
+      queue: mobile
+      xcode: 8
+    env:
+      XCODE_SCHEME: TBCCore-iOS
+      XCODE_SDK: iphonesimulator
+      XCODE_DESTINATION: "platform=iOS Simulator,name=iPhone 6"
+
+
+  - name: "iOS - Xcode8 - Test"
+    command: scripts/ci-staticlib-test
+    agents:
+      os: macos
+      queue: mobile
+      xcode: 8
     env:
       XCODE_SCHEME: TBCCore-iOS
       XCODE_SDK: iphonesimulator
