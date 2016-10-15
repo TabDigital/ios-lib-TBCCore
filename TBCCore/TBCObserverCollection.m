@@ -3,6 +3,34 @@
 #import "TBCObserverCollection.h"
 
 
+@interface TBCObserverCollectionToken : NSObject<TBCObserverCollectionToken>
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithObserverCollection:(TBCObserverCollection * __nonnull)collection observer:(id)observer NS_DESIGNATED_INITIALIZER;
+@property (nonatomic,weak,nullable,readonly) TBCObserverCollection *collection;
+@property (nonatomic,weak,nullable,readonly) id observer;
+@end
+
+@implementation TBCObserverCollectionToken
+- (instancetype)initWithObserverCollection:(TBCObserverCollection * __nonnull)collection observer:(id)observer {
+    if ((self = [super init])) {
+        _collection = collection;
+        _observer = observer;
+    }
+    return self;
+}
+- (void)dealloc {
+    [self invalidate];
+}
+- (void)invalidate {
+    id const observer = _observer;
+    _observer = nil;
+    if (observer) {
+        [_collection removeObserver:observer];
+    }
+}
+@end
+
+
 @implementation TBCObserverCollection {
 @private
     NSPointerArray *_pointerArray;
@@ -28,6 +56,13 @@
         }
     }
     return NSNotFound;
+}
+
+
+- (id<TBCObserverCollectionToken> __nonnull)observationTokenWithObserver:(id __nonnull)observer {
+    TBCObserverCollectionToken * const token = [[TBCObserverCollectionToken alloc] initWithObserverCollection:self observer:observer];
+    [self addObserver:observer];
+    return token;
 }
 
 

@@ -214,4 +214,48 @@
     }
 }
 
+- (void)testTokenBasedObservation {
+    TBCObserverCollection<id<XXXObserver>> * const observers = [[TBCObserverCollection alloc] initWithCapacity:0];
+
+    XXXObserver * const o1 = [[XXXObserver alloc] initWithIdentifier:@"1"];
+
+    @autoreleasepool {
+        id<TBCObserverCollectionToken> token = [observers observationTokenWithObserver:o1];
+
+        NSMutableArray<NSString *> * const notifiedObservers = [[NSMutableArray alloc] initWithCapacity:1];
+
+        [observers notifyObserversWithBlock:^(id<XXXObserver> __nonnull const observer) {
+            [notifiedObservers addObject:observer.identifier];
+        }];
+
+        XCTAssertEqualObjects(notifiedObservers, (@[ @"1" ]));
+
+        token = nil;
+    }
+
+    {
+        NSMutableArray<NSString *> * const notifiedObservers = [[NSMutableArray alloc] initWithCapacity:1];
+
+        [observers notifyObserversWithBlock:^(id<XXXObserver> __nonnull const observer) {
+            [notifiedObservers addObject:observer.identifier];
+        }];
+
+        XCTAssertEqualObjects(notifiedObservers, (@[ ]));
+    }
+
+    @autoreleasepool {
+        id<TBCObserverCollectionToken> token = [observers observationTokenWithObserver:o1];
+
+        NSMutableArray<NSString *> * const notifiedObservers = [[NSMutableArray alloc] initWithCapacity:1];
+
+        [observers notifyObserversWithBlock:^(id<XXXObserver> __nonnull const observer) {
+            [notifiedObservers addObject:observer.identifier];
+        }];
+
+        XCTAssertEqualObjects(notifiedObservers, (@[ @"1" ]));
+
+        token = nil;
+    }
+}
+
 @end
