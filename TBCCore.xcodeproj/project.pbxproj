@@ -629,7 +629,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TBC;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Tabcorp Pty. Ltd.";
 				TargetAttributes = {
 					A3084F7B1987E2EB00C30AFA = {
