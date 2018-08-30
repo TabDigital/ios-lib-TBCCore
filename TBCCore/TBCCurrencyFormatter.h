@@ -2,14 +2,17 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol TBCCurrencyFormatter <NSObject>
-- (NSDecimalNumber *)numberFromString:(NSString *)string;
-- (NSString *)stringFromNumber:(NSNumber *)string;
-- (NSString *)stringForObjectValue:(id)object;
+- (nullable NSDecimalNumber *)numberFromString:(NSString *)string;
+- (nullable NSString *)stringFromNumber:(NSNumber *)string;
+- (nullable NSString *)stringForObjectValue:(id)object;
 @end
 
 extern id<TBCCurrencyFormatter> TBCCurrencyFormatterForCurrencyCode(NSString *currencyCode);
 extern id<TBCCurrencyFormatter> TBCCurrencyFormatterForCurrencyCodeIntegralValues(NSString *currencyCode);
 extern id<TBCCurrencyFormatter> TBCCurrencyFormatterForAustralianCurrency(void);
 extern id<TBCCurrencyFormatter> TBCCurrencyFormatterForAustralianCurrencyWholeDollars(void);
+
+NS_ASSUME_NONNULL_END
