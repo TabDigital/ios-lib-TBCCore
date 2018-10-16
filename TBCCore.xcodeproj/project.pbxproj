@@ -101,8 +101,6 @@
 		FD4936CD1999D4460079A886 /* TBCDelayedDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */; };
 		FD4936DF199AE3920079A886 /* TBCDelayedDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936DE199AE3920079A886 /* TBCDelayedDispatcherTests.m */; };
 		FD4936E0199AE3920079A886 /* TBCDelayedDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4936DE199AE3920079A886 /* TBCDelayedDispatcherTests.m */; };
-		FD4A893419B548D100D070E2 /* TBCActionSheet-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A893319B548D100D070E2 /* TBCActionSheet-ios.m */; };
-		FD4A893519B548E200D070E2 /* TBCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A893219B548D100D070E2 /* TBCActionSheet.h */; };
 		FD4AA4F51C50B0540038B9A0 /* TBCMonetaryValue.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4AA4F31C50B0540038B9A0 /* TBCMonetaryValue.h */; };
 		FD4AA4F61C50B0540038B9A0 /* TBCMonetaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4AA4F41C50B0540038B9A0 /* TBCMonetaryValue.m */; };
 		FD4AA4F71C50B0540038B9A0 /* TBCMonetaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4AA4F41C50B0540038B9A0 /* TBCMonetaryValue.m */; };
@@ -241,8 +239,6 @@
 		FD4936C91999D4460079A886 /* TBCDelayedDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCDelayedDispatcher.h; sourceTree = "<group>"; };
 		FD4936CA1999D4460079A886 /* TBCDelayedDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCDelayedDispatcher.m; sourceTree = "<group>"; };
 		FD4936DE199AE3920079A886 /* TBCDelayedDispatcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCDelayedDispatcherTests.m; sourceTree = "<group>"; };
-		FD4A893219B548D100D070E2 /* TBCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCActionSheet.h; sourceTree = "<group>"; };
-		FD4A893319B548D100D070E2 /* TBCActionSheet-ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBCActionSheet-ios.m"; sourceTree = "<group>"; };
 		FD4AA4F31C50B0540038B9A0 /* TBCMonetaryValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCMonetaryValue.h; sourceTree = "<group>"; };
 		FD4AA4F41C50B0540038B9A0 /* TBCMonetaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCMonetaryValue.m; sourceTree = "<group>"; };
 		FD4AA4FA1C51B6110038B9A0 /* TBCMonetaryValueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCMonetaryValueTests.m; sourceTree = "<group>"; };
@@ -370,8 +366,6 @@
 				A34F8DDF1AF09FCF006A46C5 /* NSSet+TBCCore.m */,
 				FDFFE7A81ACCDB3F00F8B782 /* NSString+TBCCore.h */,
 				FDFFE7A91ACCDB3F00F8B782 /* NSString+TBCCore.m */,
-				FD4A893219B548D100D070E2 /* TBCActionSheet.h */,
-				FD4A893319B548D100D070E2 /* TBCActionSheet-ios.m */,
 				FD36DDBE1D6C270E007E1381 /* TBCApplicationVersion.h */,
 				FD36DDBF1D6C270E007E1381 /* TBCApplicationVersion.m */,
 				FDBDE17719EB4D33009A2236 /* TBCCoreDefines.h */,
@@ -512,7 +506,6 @@
 				A3017FCE1A84663D0055A22A /* NSMutableDictionary+TBCCore.h in Headers */,
 				FD56C8B619C7FD04008E9B11 /* TBCPersistenceURLProvider.h in Headers */,
 				A32272EA1ADF873A00CBF58F /* NSDictionary+TBCCore.h in Headers */,
-				FD4A893519B548E200D070E2 /* TBCActionSheet.h in Headers */,
 				A38B6CB71A70B6AD008717C7 /* TBCPredicateBlock.h in Headers */,
 				A3C776E61D3A50740044AB4F /* TBCNotificationCenterObservation.h in Headers */,
 				A377E0D019925129007F2F47 /* TBCTypeSafety.h in Headers */,
@@ -730,7 +723,6 @@
 				A377E0D119925129007F2F47 /* TBCTypeSafety.m in Sources */,
 				FD4936CC1999D4460079A886 /* TBCDelayedDispatcher.m in Sources */,
 				FD36DDC11D6C270E007E1381 /* TBCApplicationVersion.m in Sources */,
-				FD4A893419B548D100D070E2 /* TBCActionSheet-ios.m in Sources */,
 				FD02DF241DA4ABAB00406D88 /* TBCObserverCollection.m in Sources */,
 				A3DA9C291C7ADDDC00CA0F09 /* TBCCancellable.m in Sources */,
 				FDBDE17B19EB4E3C009A2236 /* TBCDebugging.m in Sources */,

@@ -9,7 +9,6 @@
 #import <TBCCore/NSSet+TBCCore.h>
 #import <TBCCore/NSString+TBCCore.h>
 #import <TBCCore/TBCCoreDefines.h>
-#import <TBCCore/TBCActionSheet.h>
 #import <TBCCore/TBCApplicationVersion.h>
 #import <TBCCore/TBCCancellable.h>
 #import <TBCCore/TBCCurrencyFormatter.h>
